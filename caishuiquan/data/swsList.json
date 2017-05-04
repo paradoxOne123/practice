@@ -1,0 +1,50 @@
+{
+	"swsList":[
+        {
+            "swsId": "001",
+            "swsName": "湖南德诚税务师事务所",
+            "serviceRange": "税务业务,会计业务,评估业务,工程造价业务",
+            "institution": "湖南省郴州市",
+            "dealCount": "￥3000",
+            "rate": "好评率：98%",
+            "swsPic": "images/office.jpg"
+        },
+        {
+            "swsId": "001",
+            "swsName": "湖南德诚税务师事务所",
+            "serviceRange": "税务业务,会计业务,评估业务,工程造价业务",
+            "institution": "湖南省郴州市",
+            "dealCount": "￥3000",
+            "rate": "好评率：98%",
+            "swsPic": "images/office.jpg"
+        },
+        {
+            "swsId": "001",
+            "swsName": "湖南德诚税务师事务所",
+            "serviceRange": "税务业务,会计业务,评估业务,工程造价业务",
+            "institution": "湖南省郴州市",
+            "dealCount": "￥3000",
+            "rate": "好评率：98%",
+            "swsPic": "images/office.jpg"
+        },
+        {
+            "swsId": "001",
+            "swsName": "湖南德诚税务师事务所",
+            "serviceRange": "税务业务,会计业务,评估业务,工程造价业务",
+            "institution": "湖南省郴州市",
+            "dealCount": "￥3000",
+            "rate": "好评率：98%",
+            "swsPic": "images/office.jpg"
+        },
+        {
+            "swsId": "001",
+            "swsName": "湖南德诚税务师事务所",
+            "serviceRange": "税务业务,会计业务,评估业务,工程造价业务",
+            "institution": "湖南省郴州市",
+            "dealCount": "￥3000",
+            "rate": "好评率：98%",
+            "swsPic": "images/office.jpg"
+        }
+        
+	]
+}

@@ -1,0 +1,37 @@
+{
+    "teacher":[
+        {
+            "status":"active",
+            "teacher_img":"images/teacher1.jpg",
+            "teacher_name":"郑晓博",
+            "teacher_pro":"注册会计师、注册资产评估师、特许金融分析师，著名考试辅导专家",
+            "lesson_img":"images/lesson1.jpg",
+            "lesson_pro":"2016年中级会计职称——《中级会计实务》",
+            "lesson_study":"这里拿到的不只是证书，还会教会你专业的会计思维，在这里有着多年教学经验和考前辅导经验的老师将倾囊相授，为你的“升职”之路铺好基石。",
+            "lesson_href":"lessonDetail.html",
+            "lesson_time":"50.2"
+        },
+        {
+            "status":"",
+            "teacher_img":"images/teacher2.jpg",
+            "teacher_name":"马珺",
+            "teacher_pro":"注册企业风险管理师、会计师，税务体系高级培训讲师",
+            "lesson_img":"images/lesson2.jpg",
+            "lesson_pro":"营改增”机遇与挑战—6大问题",
+            "lesson_study":"面对“营改增”：操作得当，可能税费下降；操作不当，税负必然上升，“营改增”会影响企业管理方方面面的重大变革，将对企业的组织结构、管理流程等带来一系列重大影响和挑战。",
+            "lesson_href":"lessonDetail.html",
+            "lesson_time":"2"
+        },
+        {
+            "status":"",
+            "teacher_img":"images/teacher3.jpg",
+            "teacher_name":"张晓贞",
+            "teacher_pro":"注册会计师、注册资产评估师、特许金融分析师",
+            "lesson_img":"images/lesson3.jpg",
+            "lesson_pro":"2016房地产业“营改增”政策解读及实务操作",
+            "lesson_study":"“营改增”全面来袭！本课程从房地产企业纳税人身份与计税方式开始讲起，详细阐述新老项目计税方法的选择，结合详细案例，全景展示，会使您豁然开朗。",
+            "lesson_href":"lessonDetail.html",
+            "lesson_time":"3"
+        }
+    ]
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="iconfont2/iconfont.css">
+<link rel="stylesheet" type="text/css" href="css/updateToOffic.css">
+<link rel="stylesheet" type="text/css" href="css/header.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/dataPerfect.css">
+<script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+<script type="text/javascript" src="js/unslider.min.js"></script>
+<script type="text/javascript" src="js/myscript.js"></script>
+	<title>用户中心</title>
+</head>
+<body>
+  <div class="top w_fluid clear">
+	<div class="toplist right">
+		<ul class="clear">
+			<li><a href="index.html">首页</a></li>
+			<li><a class="bluelink" href="login.html">您好，请登录</a></li>
+			<li><a href="submit.html">免费注册</a></li>
+			<li><a href="userInformation.html">个人中心</a></li>
+			<li><a href="">购物车<span class="bluelink">0</span></a></li>
+			<li><a href="#">收藏网站</a></li>
+			<li><a href="#">关注我们</a></li>
+			<li><a href="#">帮助中心</a></li>
+			<li><a class="bluelink" href="#">服务热线：400-010-2233</a></li>
+		</ul>
+	</div>
+</div>
+
+<!--header-->
+<div class="personal-settings">
+	<ul>
+		<li>用户中心</li>
+		<li class="active"><a href="#"><img src="images/setting.png" alt="">账号设置</a></li>
+		<li><a href="mycrew.html"><img src="images/sheild.png" alt="">我的发布</a></li>
+		<li><a href="#"><img src="images/message.png" alt="">我的消息</a></li>
+		<li><a href="#"><img src="images/privacy.png" alt="">我的隐私</a></li>
+		<li><a href="#">更多</a></li>
+	</ul>
+</div>
+<div class="main-content">
+	<div class="side-nav">
+		<div class="side-nav-klass active">
+			<p>基本资料</p>
+			<ul class="hidden-content">
+				<li><a href="#">资料完善</a></li>
+				<li><a href="#">用户头像</a></li>
+				<li><a href="#">技能标签</a></li>
+			</ul>
+		</div>
+		<div class="side-nav-klass">
+			<p>账号安全</p>
+			<ul class="hidden-content">
+				<li><a href="accountSecurity.html">登录密码</a></li>
+				<li><a href="accountSecurity.html">支付密码</a></li>
+				<li><a href="accountSecurity.html">账号绑定</a></li>
+				<li><a href="accountSecurity.html">账号认证</a></li>
+			</ul>
+		</div>
+		<div class="side-nav-klass">
+			<p>财务管理</p>
+			<ul class="hidden-content">
+				<li><a href="#">资金明细</a></li>
+				<li><a href="#">我要提现</a></li>
+				<li><a href="#">账号充值</a></li>
+				<li><a href="#">赠金明细</a></li>
+				<li><a href="#">我推荐的账户</a></li>
+			</ul>
+		</div>
+		<div class="side-nav-klass">
+			<p>网络事务所</p>
+			<ul class="hidden-content">
+				<li><a href="updateToOffice.html">执业机构</a></li>
+				<li><a href="updateToOffice.html">执业个人</a></li>
+			</ul>
+		</div>
+		<div class="side-nav-klass">
+			<p>装饰网络事务所</p>
+			<ul class="hidden-content">
+				<li><a href="#">我的店铺主页</a></li>
+				<li><a href="#">服务详情页</a></li>
+				<li><a href="#">上传资质图片</a></li>
+				<li><a href="#">我的相册</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="fill-table">
+		<div class="change-tab">
+			<span class="tab-person active">资料完善</span>
+		</div>
+        <div class='perfect_data'>
+            <form id='form_data'>
+                <p><span>个人资料</span></p>
+                <p> 
+                    <a>真实姓名<i>*</i> :</a>
+                    <input type="text" placeholder="请输入您的名字">
+                    <select name="" id="">
+                        <option value="secrite">保密</option>
+                        <option value="male">男士</option>
+                        <option value="fmale">女士</option>
+                    </select>
+                    <u><i class='iconfont'>&#xe634;</i>身份认证</u>
+                </p>
+                <p>
+                    <a>用 户 名 <i>*</i> :</a>
+                    <input type="text" placeholder="请输入你想起的名字">
+                </p>
+                <p>
+                    <a>出生日期<i>*</i> :</a>
+                    <input type="date">
+                </p>
+                <p><span>基本资料</span></p>
+                <p>
+                    <a> 邮 箱  &nbsp;&nbsp;&nbsp;&nbsp;<i>*</i> : </a> 
+                    <input type="text" placeholder="请输入邮箱">
+                    <select name="" id="">
+                        <option value="open">公开</option>
+                        <option value="close">保密</option>
+                    </select>
+                    <u><i class="iconfont">&#xe63c;</i>邮箱验证</u>
+                </p>
+                <p>
+                     <a> Q Q  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>*</i> : </a> 
+                     <input type="text" placeholder="QQ">
+                     <select name="" id="">
+                        <option value="open">公开</option>
+                        <option value="close">保密</option>
+                    </select>
+                </p>
+                <p>
+                     <a> 微 信  &nbsp;&nbsp;&nbsp;&nbsp;<i>*</i> : </a> 
+                     <input type="text" placeholder="微信">
+                     <select name="" id="">
+                        <option value="open">公开</option>
+                        <option value="close">保密</option>
+                    </select>
+                </p>
+                <p>
+                    <a>固定电话<i>* </i>:</a>
+                     <input class='input' type="text" placeholder="固定电话">
+                     <select name="" id="">
+                        <option value="open">公开</option>
+                        <option value="close">保密</option>
+                    </select>
+                </p>
+                <p>
+                    <button>提交</button>
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+
+<<<<<<< .mine
+||||||| .r16
+<!--sidebar-->
+<div class="sidebar-link">
+	<a class="personal-center" href="caishui.html">
+		<img src="images/link-icon2.png" alt="">
+		<span>发布任务</span>
+	</a>
+	<a class="my-task" href="userInformation.html">
+		<img src="images/link-icon5.png" alt="">
+		<span>会员入口</span>
+	</a>
+	<a class="my-message" href="">
+		<img src="images/link-icon3.png" alt="">
+		<span>&nbsp;事 务 所</span>
+	</a>
+	<a class="personal-center" href="">
+		<img src="images/link-icon4.png" alt="">
+		<span>&nbsp;&nbsp;社  &nbsp;交 </span>
+	</a>
+	<a class="personal-center" href="userInformation.html">
+		<img src="images/link-icon1.png" alt="">
+		<span>个人中心</span>
+	</a>
+</div>
+
+=======
+<div class="sidebar-link">
+	<a class="personal-center" href="caishui.html">
+		<img src="images/link-icon2.png" alt="">
+		<span>发布任务</span>
+	</a>
+	<a class="my-task" href="userInformation.html">
+		<img src="images/link-icon5.png" alt="">
+		<span>会员入口</span>
+	</a>
+	<a class="my-message" href="">
+		<img src="images/link-icon3.png" alt="">
+		<span>&nbsp;事 务 所</span>
+	</a>
+	<a class="personal-center" href="">
+		<img src="images/link-icon4.png" alt="">
+		<span>&nbsp;&nbsp;社  &nbsp;交 </span>
+	</a>
+	<a class="personal-center" href="userInformation.html">
+		<img src="images/link-icon1.png" alt="">
+		<span>个人中心</span>
+	</a>
+</div>
+
+<div class="footer">
+	<div class="links">
+		<a href="#">关于我们</a>|
+		<a href="#">合作伙伴</a>|
+		<a href="#">技术支持</a>|
+		<a href="#">法律声明</a>|
+		<a href="#">联系我们</a>
+	</div>
+	<div class="text">
+		<p>公司名称:南京弗莱英网络科技有限公司 地址:南京秣陵科技创业中心东门清水亭西路2号中节能产业园A栋8楼 <br> 客服电话:13956911452</p>
+		<p><a href="#">客服邮箱:591471488@qq.com</a></p>
+		<p>Powered by fulaiyin1.0 Copyright  2016 财税圈. All rights reserved  京ICP备14057654号-3<a href="http://icp.valu.cn/" target="_blank" id="footer_copyright_a"></a></p>
+	</div>
+	<div>
+		<a target="_black" href="http://www.itrust.org.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot1.png"/></a>
+		<a target="_black" href="http://www.baic.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot2.png"/></a>
+		<a target="_black" href="http://www.12321.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot3.png"/></a>
+		<a target="_black" href="http://www.bnia.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot4.png"/></a>
+		<a target="_black" href="http://www.bj.cyberpolice.cn/index.jsp"><img src="http://www.miaocaiwang.com/tpl/default/img/bot5.png"/></a>
+		<a target="_black" href="http://www.ctws.com.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot6.png"/></a>
+		<a target="_black" href="http://www.bjwhzf.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot7.png"/></a>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/sidebar.js"></script>
+</body>
+</html>

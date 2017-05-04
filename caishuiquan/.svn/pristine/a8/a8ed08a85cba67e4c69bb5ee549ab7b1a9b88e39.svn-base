@@ -1,0 +1,302 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta charset="UTF-8">
+<head>
+	<title>财税圈 知识库</title>
+	<link rel="icon" href="images/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/konwledge.css">
+    <link rel="stylesheet" type="text/css" href="css/reading.css">
+</head>
+<body>
+
+<!--top-->
+<div class="top w_fluid clear">
+	<div class="toplist right">
+		<ul class="clear">
+		    <li><a href="index.html">首页</a></li>
+			<li><a class="bluelink" href="login.html">您好，请登录</a></li>
+			<li><a href="submit.html">免费注册</a></li>
+			<li><a href="userInformation.html">个人中心</a></li>
+			<li><a href="">购物车<span class="bluelink">0</span></a></li>
+			<li><a href="#">收藏网站</a></li>
+			<li><a href="#">关注我们</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a class="bluelink" href="#">服务热线：400-010-2233</a></li>
+		</ul>
+	</div>
+</div>
+<!--banner-->
+<div class="top_banner w_fluid">
+	<div class="top_banner_box clear">
+		<a><img style="width: 80px;height: 80px;" src="images/knowledge_logo.png"></a>
+		<span>知识库</span>
+	</div>
+
+	<form>
+		<div class="top_banner_search clear">
+
+		    <div class="nice-select" name="nice-select">
+			    <input type="text" value="全部">
+			    <ul style="display: none;">
+			        <li art-type="1" class="">知识</li>
+			        <li art-type="2" class="">业界</li>
+			        <li art-type="3">案例</li>
+			        <li art-type="4">法规</li>
+			        <li art-type="5">解读</li>
+			    </ul>
+			</div>
+
+	        <input class="seh-input" type="text">
+	        <button type="button"><span></span>搜索</button>
+            
+            <!---->
+	        <div class="sehpullbox">
+	        	
+	        	<!--分类框-->
+	        	<div class="sehfl">
+	        	    <p>行业分类</p>
+					<a href="javascript:;" target="_blank" hyfl-value="2">建筑施工</a>
+					<a href="javascript:;" target="_blank" hyfl-value="3">房地产</a>
+					<a href="javascript:;" target="_blank" hyfl-value="4">商业</a>
+					<a href="javascript:;" target="_blank" hyfl-value="5">服务</a>
+					<a href="javascript:;" target="_blank" hyfl-value="6">金融保险</a>
+					<a href="javascript:;" target="_blank" hyfl-value="7">交通运输</a>
+					<a href="javascript:;" target="_blank" hyfl-value="8">信息技术</a>
+					<a href="javascript:;" target="_blank" hyfl-value="9">教育</a>
+					<a href="javascript:;" target="_blank" hyfl-value="10">进出口</a>
+					<a href="javascript:;" target="_blank" hyfl-value="11">工业</a>
+					<a href="javascript:;" target="_blank" hyfl-value="12">农业</a>
+					<a href="javascript:;" target="_blank" hyfl-value="13">信息技术</a>
+					<a href="javascript:;" target="_blank" hyfl-value="14">公共管理</a>
+					<a href="javascript:;" target="_blank" hyfl-value="15">上市公司</a>
+					<a href="javascript:;" target="_blank" hyfl-value="16">外资</a>
+					<a href="javascript:;" target="_blank" hyfl-value="17">汽车</a>
+					<a href="javascript:;" target="_blank" hyfl-value="18">食品</a>
+					<a href="javascript:;" target="_blank" hyfl-value="19">石油天然气</a>
+					<a href="javascript:;" target="_blank" hyfl-value="20">资源供应</a>
+					<a href="javascript:;" target="_blank" hyfl-value="21">加工修理</a>
+					<a href="javascript:;" target="_blank" hyfl-value="22">服装纺织</a>
+					<a href="javascript:;" target="_blank" hyfl-value="23">邮电通讯</a>
+					<a href="javascript:;" target="_blank" hyfl-value="24">旅游餐饮</a>
+					<a href="javascript:;" target="_blank" hyfl-value="25">医疗卫生</a>
+					<a href="javascript:;" target="_blank" hyfl-value="26">文化体育</a>
+					<a href="javascript:;" target="_blank" hyfl-value="27">烟酒</a>
+
+					<p class="top10">热门标签</p>
+        		    <a href="javascript:;" target="_blank" htag-value="0">营改增</a>
+					<a href="javascript:;" target="_blank" htag-value="2">出口退税</a>
+					<a href="javascript:;" target="_blank" htag-value="3">小微企业</a>
+					<a href="javascript:;" target="_blank" htag-value="4">发票管理</a>
+					<a href="javascript:;" target="_blank" htag-value="5">税前扣除</a>
+					<a href="javascript:;" target="_blank" htag-value="6">企业所得税</a>
+					<a href="javascript:;" target="_blank" htag-value="7">房产税</a>
+					<a href="javascript:;" target="_blank" htag-value="8">车辆购置税</a>
+					<a href="javascript:;" target="_blank" htag-value="9">契税</a>
+	        	</div>
+
+	        	<!--推荐列表-->
+	        	<div class="sehtj">
+	        		<ul>
+	        			
+	        		</ul>
+	        	</div>
+	        </div>
+	    </div>
+    </form>
+    
+    <div class="rmss w_1000">
+       热门搜索：
+       <a href="#">营改增</a><a href="#">金税三期</a><a href="#">增值税</a><a href="#">案例解析</a>
+   </div>
+   <p>已收录知识<span id="count_1" class="count">2392</span>篇，今日新增<span id="count_2" class="count">56</span>篇</p>
+
+</div>
+
+<!--main cont-->
+<div class="w_1000">
+	 
+	<div class="artical">
+		<!--TITLE-->
+		<div class="head">
+			<h3>国家工商行政管理总局关于立足部门职能积极帮扶化解过剩产能职工就业创业的通知</h3>
+			<div class="art-info clear">
+				<div class="liulan left"><b></b>浏览<span id="ll-count">( 206 )</span><span id="ll-time">颁布时间：2016-07-17</span></div>
+				<div class="right">
+					<a href="javascript:;" class="font-add"> + </a>
+					<a href="javascript:;" class="font-minus"> - </a>
+				</div>
+			</div>
+		</div>
+
+		<div class="tags">
+			<p><label>【标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;签】</label>立足部门职能 过剩产能职工 就业创业</p>
+			<p><label>【颁布单位】</label> 国家工商行政管理总局</p>
+			<p><label>【文&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号】</label> 工商个字（2016）138号</p>
+			<p><label>【发文日期】</label> 2016-07-14</p>
+			<p><label>【有&nbsp;&nbsp;效&nbsp;&nbsp;性】</label> 国家工商行政管理总局</p>
+			<p><label>【税&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;种】</label>综合政务</p>
+			<p><label>【来&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;源】</label>国家工商行政管理总局</p>
+			<p><label>【正&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文】</label></p>
+		</div>
+
+        <!--正文-->
+        <div class="artical-cont" id="content">
+			<p>各省、自治区、直辖市工商行政管理局、市场监督管理部门：</p>
+
+			<p>为贯彻党中央、国务院的部署，推动供给侧结构性改革顺利实施，现就立足工商(市场监管)部门职能，积极帮扶化解过剩产能职工就业创业通知如下：</p>
+
+			<p>一、着眼大局，提高认识，切实增强帮扶化解过剩产能职工就业创业的责任感和主动性</p>
+
+			<p>化解过剩产能是当前和今后一个时期推进供给侧结构性改革的一项重点工作，责任重大，任务艰巨，妥善安置职工是化解过剩产能工作的重中之重，关系改革发展稳定大局，党中央、国务院高度重视。国家强调要多措并举，通过支持企业内部分流、促进转岗就业创业、实行内部退养、运用公益性岗位托底帮扶等多个渠道进行化解过剩产能职工分流安置，其中促进转岗就业创业，工商(市场监管)部门责无旁贷。一直以来，工商(市场监管)部门把促进创业就业作为服务经济社会发展、关注民生的一项重点任务，发挥职能作用做了大量工作。在化解过剩产能、推进供给侧结构性改革中，各级工商(市场监管)部门要进一步增强全局意识，从讲政治、促改革的高度，增强责任感和主动性，立足职能，发挥优势，主动作为，积极帮扶化解过剩产能职工就业创业，为全面深化改革和社会和谐稳定作出新的贡献。</p>
+
+			<p>二、依托职能，摸清底数，主动为化解过剩产能职工提供创业就业政策解读和辅导</p>
+
+			<p>依托企业变更登记、注销登记等工作，关注辖区内化解过剩产能工作动向和涉及的企业，同时，加强与发展改革、人力资源社会保障等牵头部门的沟通，了解掌握辖区内化解过剩产能职工数量规模、分布情况、人员特点。根据需要和实际情况，开展“创业指导进企业、进厂区、进矿区”活动，可以举办创业辅导专题讲座、发放宣传材料和办事指南，也可以通过录制音像资料或制作网络、移动终端节目等方式，专门针对化解过剩产能职工宣传商事制度改革成果、创业就业扶持措施和工商登记注册流程，充分发挥当地个私协会的优势和作用，组织开展各种形式的宣传、培训、职业介绍和招聘活动，鼓励、帮助化解过剩产能职工自主创业或者到个体私营经济领域就业。</p>
+
+			<p>三、深化改革，优化服务，把帮扶化解过剩产能职工创业就业融入履职过程</p>
+
+			<p>化解过剩产能工作将在未来较长一段时间内持续推进，工商(市场监管)部门要把帮扶化解过剩产能职工创业就业纳入整体工作，融入履职过程。进一步深化商事制度改革，扩大各类市场主体总量，创造更多就业岗位，特别要支持培育适应当地经济产业特色和化解过剩产能职工技术专长的创业创新载体，为化解过剩产能职工就地就近转岗创业就业创造条件。根据化解过剩产能职工创业的特点和自身意愿，鼓励引导他们创办简便易行的个体工商户、小微企业等小规模经济实体和利用互联网创业，为他们提供便捷优质的咨询、注册服务。指导化解过剩产能职工通过小微企业名录，了解中央和地方有关创业扶持政策，熟悉申请扶持政策的办事流程，帮助他们运用扶持政策解决创业、经营过程中的问题和困难，指导他们依法运用商标、广告，依法年报公示，规范经营，积累商誉，提高市场竞争能力。积极参与清理整顿人力资源市场秩序专项行动，加强人力资源服务企业信用监管，严厉查处和打击“黑中介”及各种侵害化解过剩产能职工合法权益的行为，特别要会同公安等部门严厉打击诱骗化解过剩产能职工参与传销的案件，同时加强法规宣传，使化解过剩产能职工增强防范意识，避免误入传销泥潭。</p>
+
+			<p>四、解放思想，大胆创新，在帮扶化解过剩产能职工就业创业中发挥非公党建、团建工作的独特作用</p>
+
+			<p>指导非公经济党、团组织充分发挥作用，在开展招工、招聘等活动时主动亮出自己的“红色招牌”，帮助企业吸纳化解过剩产能职工就业，对吸纳的化解过剩产能职工，主动关心帮助，使他们进得来、待得住、干得长，安心稳定再就业。跟踪关注到个体私营经济领域创业就业的化解过剩产能职工党员，保证他们人心不散，组织关系不乱，“离岗不离党”。组织非公经济组织党、团员到化解产能企业、厂区、矿区，现身说法，典型示范，鼓励引导化解过剩产能职工中的党、团员发挥先锋模范作用，更好地理解、支持并主动参与改革，带头转变就业观念，努力适应新的要求，勇敢接受市场挑战。引导动员化解产能过剩企业的党务工作者、共青团工作骨干加入非公党建、团建行列，充实非公党建、团建组织建设力量，使他们在非公党建、团建中焕发新的活力。</p>
+
+			<p>各级工商(市场监管)部门要按照本意见精神，结合实际抓好贯彻落实，有关工作情况请及时报总局个体私营经济监督管理司，总局将对各地好的经验做法进行宣传交流。</p>
+			<p style="text-align: right;">工商总局</p>
+			<p style="text-align: right;">2016年7月14日</p>
+		</div>
+
+		<!--正文底部-->
+        <div class="artical-foot">
+        	<div class="artlist clear">
+	        	<div class="prev left">
+	        		<span>上一篇：</span><a href="" id="prev">海关总署关于明确特别关税起征点的公告</a>
+	        	</div>
+	        	<div class="next right">
+	        		<span>下一篇：</span><a href="" id="prev">四川省人民政府关于全面实施资源税改革的通知</a>
+	        	</div>
+        	</div>
+        </div>
+
+	</div>
+
+	<!--关联-->
+	<div class="guanlian clear">
+		<div class="left">
+			<div class="glfg">
+				<div class="glfgcont">
+					<div class="main-tit clear">
+					    <i class="left"></i> 
+						<h3 class="left">关联法规</h3>
+					</div>
+
+					<ul>
+						<li>
+							<a href=""><span></span>青岛市国家税务局取消认证友情提示</a>
+							<b>2016-07-20</b>
+						</li>
+						<li>
+							<a href=""><span></span>民政部、财政部关于开展2016年居家和社区养老服务改革试点申报工作的通知</a>
+							<b>2016-07-20</b>
+						</li>
+
+						<li>
+							<a href=""><span></span>厦门市国家税务局关于开展2016年减免税统计调查工作的通知</a>
+							<b>2016-07-20</b>
+						</li>
+						<li>
+							<a href=""><span></span>厦门市地方税务局关于发布修订后的房产税纳税申报表的通告</a>
+							<b>2016-07-20</b>
+						</li>
+						<li>
+							<a href=""><span></span>厦门市地方税务局关于发布修订后的房产税纳税申报表的通告</a>
+							<b>2016-07-20</b>
+						</li>
+						<li>
+							<a href=""><span></span>国家工商行政管理总局关于立足部门职能积极帮扶化解过剩产能职工就业创业的通知</a>
+							<b>2016-07-20</b>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="right">
+			<div class="glfg">
+				<div class="glfgcont">
+					<div class="main-tit clear">
+					    <i class="left"></i> 
+						<h3 class="left">关联政策解读</h3>
+					</div>
+
+					<ul>
+						<li>
+							<a href=""><span></span>《北京市国家税务局 北京市地方税务局关于个人申请代开普通发票有关事项的公告》的政策解读</a>
+							<b>2016-07-20</b>
+						</li>
+						<li>
+							<a href=""><span></span>关于《国家税务总局关于完善关联申报和同期资料管理有关事项的公告》的解读</a>
+							<b>2016-07-20</b>
+						</li>
+
+						<li>
+							<a href=""><span></span>关于《国家税务总局关于设有固定装置非运输车辆免征车辆购置税有关事项的公告》的解读</a>
+							<b>2016-07-20</b>
+						</li>
+						<li>
+							<a href=""><span></span>关于《国家税务总局关于部分地区开展住宿业增值税小规模纳税人自开增值税专用发票试点工作有关事项的公告》的解读</a>
+							<b>2016-07-20</b>
+						</li>
+						<li>
+							<a href=""><span></span>关于《国家税务总局关于个人保险代理人税收征管有关问题的公告》的解读</a>
+							<b>2016-07-20</b>
+						</li>
+						<li>
+							<a href=""><span></span>关于《浙江省国家税务局关于规范增值税电子普通发票管理的公告》的解读</a>
+							<b>2016-07-20</b>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<!--footer-->
+<div class="footer">
+    <div class="links">
+        <a href="#">关于我们</a>|
+        <a href="#">合作伙伴</a>|
+        <a href="#">技术支持</a>|
+        <a href="#">法律声明</a>|
+        <a href="#">联系我们</a>
+    </div>
+    <div class="text">
+        <p>公司名称:南京弗莱英网络科技有限公司 地址:南京秣陵科技创业中心东门清水亭西路2号中节能产业园A栋8楼 <br> 客服电话:13956911452</p>
+        <p><a href="#">客服邮箱:591471488@qq.com</a></p>
+        <p>Powered by fulaiyin1.0 Copyright  2016 财税圈. All rights reserved  京ICP备14057654号-3<a href="http://icp.valu.cn/" target="_blank" id="footer_copyright_a"></a></p>
+    </div>
+    <div>
+        <a target="_black" href="http://www.itrust.org.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot1.png"/></a>
+        <a target="_black" href="http://www.baic.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot2.png"/></a>
+        <a target="_black" href="http://www.12321.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot3.png"/></a>
+        <a target="_black" href="http://www.bnia.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot4.png"/></a>
+        <a target="_black" href="http://www.bj.cyberpolice.cn/index.jsp"><img src="http://www.miaocaiwang.com/tpl/default/img/bot5.png"/></a>
+        <a target="_black" href="http://www.ctws.com.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot6.png"/></a>
+        <a target="_black" href="http://www.bjwhzf.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot7.png"/></a>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="knowledge.js"></script>
+<script type="text/javascript" src="js/knowledge-seh.js"></script>
+<script type="text/javascript" src="js/sidebar.js"></script>
+</body>
+</html>

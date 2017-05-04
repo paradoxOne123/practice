@@ -1,0 +1,27 @@
+$(function(){  
+    /*fans*/
+	$(".flw").mouseover(function(){
+		$(this).find("img")[0].src="images/follow.png"
+	});
+	$(".flw").mouseleave(function(){
+		$(this).find("img")[0].src="images/follow 1.png"
+	});
+	$(".grp").mouseover(function(){
+		$(this).find("img")[0].src="images/group.png"
+	});
+	$(".grp").mouseleave(function(){
+		$(this).find("img")[0].src="images/group1.png"
+	});
+	$(".fans").mouseover(function(){
+		$(this).find("img")[0].src="images/user1.png"
+	});
+	$(".fans").mouseleave(function(){
+		$(this).find("img")[0].src="images/user.png"
+	});
+	$(".bl").mouseover(function(){
+		$(this).find("img")[0].src="images/blacklist.png"
+	});
+	$(".bl").mouseleave(function(){
+		$(this).find("img")[0].src="images/blacklist1.png"
+	});
+})

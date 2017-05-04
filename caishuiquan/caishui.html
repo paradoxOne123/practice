@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/umeditor.min.css">
+    <link rel="stylesheet" type="text/css" href="css/cai.css"/>
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/umeditor.config.js"></script>
+    <script type="text/javascript" src="js/umeditor.min.js"></script>
+    <script type="text/javascript" src="js/zh-cn.js"></script>
+    <title>欢迎来到财税圈</title>
+</head>
+<body>
+
+<div class="top w_fluid clear">
+    <div class="toplist right">
+        <ul class="clear">
+            <li><a href="index.html">首页</a></li>
+            <li><a class="bluelink" href="login.html">您好，请登录</a></li>
+            <li><a href="submit.html">免费注册</a></li>
+            <li><a href="userInformation.html">个人中心</a></li>
+            <li><a href="">购物车<span class="bluelink">0</span></a></li>
+            <li><a href="#">收藏网站</a></li>
+            <li><a href="#">关注我们</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a class="bluelink" href="#">服务热线：400-010-2233</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--header-->
+<div class="header w_1000 clear">
+    <div class="logobox left">
+        <a href="index.html"><img src="images/logo.jpg"></a>
+    </div>
+
+    <!--searchbox-->
+    <div class="searchbox left">
+        <div class="form clear">
+            <!--下拉框-->
+            <div class="nice-select" name="nice-select">
+                <input type="text" value="全部">
+                <ul>
+                    <li data-value="1">全部</li>
+                    <li data-value="2">税务师</li>
+                    <li data-value="3">事务所</li>
+                    <li data-value="4">服务</li>
+                    <li data-value="5">培训</li>
+                    <li data-value="6">咨询</li>
+                    <li data-value="7">知识库</li>
+                </ul>
+            </div>
+
+            <input class="sehcont" type="text"></input>
+            <button type="button">搜索</button>
+        </div>
+
+        <div class="tags">
+            <ul class="clear">
+                <li><span>热门搜索：</span></li>
+                <li><a href="#">税务师</a></li>
+                <li><a href="#">宏泰</a></li>
+                <li><a href="#">中税协</a></li>
+                <li><a href="#">乐税网</a></li>
+            </ul>   
+        </div>
+    </div>
+    <!--发布任务-->
+    <div class="fbrw left">
+        <a href="caishui.html">发布任务</a>
+    </div>
+    <!--找网络事务所-->
+    <div class="fbrw wlsws left">
+        <a href="office/officeList.html">找网络事务所</a>
+    </div>
+</div>
+
+<!--nav-->
+<div class="w_fluid navbar">
+    <div class="w_1000">
+        <ul class="clear">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="accountingTasks.html">找服务</a></li>
+            <li><a href="office/officeList.html">事务所</a></li>
+            <li><a href="trainning.html">培训</a></li>
+            <li><a href="knowledge.html">智囊</a></li>
+            <li><a href="message.html">资讯</a></li>
+            <li><a href="">财税服务</a></li>
+            <li><a href="">营改增</a></li>
+            <li><a href="">税务师考试</a></li>
+            <li><a href="">纳税人讲堂</a></li>
+            <li><a href="shejiao/index.html">社交</a></li>            
+        </ul>
+    </div>
+</div>
+
+
+<section id="tbody">
+   <div class="all_main">
+      <div class="all">
+        <div class="rw-progress">
+			<ul class="clear">
+				<li class="step-active">
+					<span class="step-icon">1</span>
+					<div class="step-text">选择预算和时间</div>
+				</li>
+				<li>
+					<span class="step-icon">2</span>
+					<div class="step-text">描述任务需求</div>
+				</li>
+				<li>
+					<span class="step-icon">3</span>
+					<div class="step-text">核对服务清单</div>
+				</li>
+                <li>
+					<span class="step-icon">4</span>
+					<div class="step-text">成功发布任务</div>
+				</li>
+			</ul>
+		</div>
+        <div class="rw-form">
+          <form id="form1">
+           <div id="main1" class="form-group form-area" style="display: block;">
+            <p>
+                <!--所属地区-->
+        		<div class="form-group form-area">
+        			<label>所属地区<i>*</i></label>
+                    <select id="fwarea-1" name="fwarea-1">
+                    	<option area-value="">请选择一级地区</option>
+						<option area-value="1">北京市</option>
+						<option area-value="2">天津</option>
+						<option area-value="3">河北省</option>
+						<option area-value="4">山西省</option>
+						<option area-value="5">内蒙古</option>
+						<option area-value="6">辽宁省</option>
+						<option area-value="7">吉林省</option>
+						<option area-value="8">黑龙江省</option>
+						<option area-value="9">上海市</option>
+						<option area-value="10">江苏省</option>
+						<option area-value="11">浙江省</option>
+						<option area-value="12">安徽省</option>
+						<option area-value="13">福建省</option>
+						<option area-value="14">江西省</option>
+						<option area-value="15">山东省</option>
+						<option area-value="16">河南省</option>
+						<option area-value="17">湖北省</option>
+						<option area-value="18">湖南省</option>
+						<option area-value="19">广东省</option>
+						<option area-value="20">广西</option>
+						<option area-value="21">海南省</option>
+						<option area-value="22">重庆市</option>
+						<option area-value="23">四川省</option>
+						<option area-value="24">贵州省</option>
+						<option area-value="25">云南省</option>
+						<option area-value="26">西藏</option>
+						<option area-value="27">陕西省</option>
+						<option area-value="28">甘肃省</option>
+						<option area-value="29">青海省</option>
+						<option area-value="30">宁夏</option>
+						<option area-value="31">新疆</option>
+						<option area-value="32">广州市</option>
+						<option area-value="33">深圳市</option>
+                    </select>
+                    <select id="fwarea-2" name="fwarea-2" style="display:none;">
+                    	<option>请选择二级地区</option>
+                    </select>
+                    <select id="fwarea-3" name="fwarea-3" style="display:none;">
+                    	<option>请选择三级地区</option>
+                    </select>
+        		</div>
+            </p>
+            <p>
+                <label>您的预算<i>*</i></label>
+                <select  class="select">
+                    <option value="">请选择</option>
+                    <option value="">10万</option>
+                    <option value="">20万</option>
+                    <option value="">30万</option>
+                    <option value="">40万</option>
+                </select>
+            </p>
+            <p>我有明确的预算</p>
+            <p>
+                <label>结束日期<i>*</i></label>
+                <input class="select" type="date"/>
+            </p>
+            <p>
+                任务最大发布时间为100天
+            </p>
+            <button class="first_btn">下一步</button>
+           </div>
+          </form> 
+          <form id="form2">
+           <div id="main2" style="display:none;">
+            <p>
+              <div class="form-group">
+        			<label>服务分类<i>*</i></label>
+                    <select id="fwlb-l" name="fwlb-l">
+                    	<option>请选择父分类</option>
+                    	<option swlb-value="01">税务服务</option>
+                      	<option swlb-value="02">审计服务</option>
+                      	<option swlb-value="03">评估服务</option>
+                      	<option swlb-value="04">工程造价服务</option>
+                      	<option swlb-value="05">代办服务</option>
+                    </select>
+                    <select id="fwlb-s" name="fwlb-s">
+                    	<option>请选择子分类</option>
+                    </select>
+        		</div>
+            </p>
+            <p>
+                <label>标题名称<i>*</i></label>
+                <input type="text" placeholder="标题名称" class="input"/>
+            </p>
+            <p>
+                <label>描述需求<i>*</i></label>
+                <script id="container" name="content" type="text/plain" style="width:600px;height:200px;">
+                </script>
+            </p>
+            <p>
+                <label>上传附件<i>*</i></label>
+                <input class="load" type="file"/>
+            </p>
+            <p>
+                <label>手机号码<i>*</i></label>
+                <input type="text" placeholder="输入您的手机号码" class="input"/>
+            </p>
+            <p>
+                <label>是否置顶<i>*</i></label>
+                <select>
+                    <option>否</option>
+                    <option>置顶</option>
+                    <option>首页置顶</option>
+                </select>
+            </p>
+            <p>
+                <input class="check" type="checkbox"/>同意《同意财税圈发布任务协议》
+            </p>
+            <button class="second_btn">下一步</button> <button class="third_btn">上一步</button>
+           </div>
+          </form>
+          <form id="form3">
+           <div id="main3" style="display: none;">
+            <p class="title">
+              <h3>订单详情</h3>
+            </p>
+            <p>
+                <a class="large">标题:</a>
+                <input type="button" value="修改"/>
+                <span class="red  large">￥100000.00~￥500000.00</span>
+                <span class="large">任务赏金：</span>
+            </p>
+            <p>
+                <a href="#">任务模式:xxxxxx</a> <a href="#">行业分类:xxxxxx</a><a href="#">附件</a>
+            </p>
+            <p>
+                content
+                <br/><br/> <br/> <br/>
+            </p>
+            <p class="rightt right"> 任务保障金合计:<a href="#">￥：<b>0</b> 元</a></p>
+            <p class="right"> 费用总额:<a href="#">￥：<b>0</b> 元</a></p>
+            <p class="right"> 账户金额:<a href="#">￥：<b>0</b> 元</a></p>
+            <p>
+                <a class="margin_10" href="#">返回修改</a><button class="fours_btn">提交任务修改</button>
+            </p>
+           </div>
+          </form>
+           <div id="main4" style="display: none ;">
+            <p>
+                <img src="images/success.jpg"/><span>发布成功！</span>
+            </p>
+                <button class="btn1">查看任务</button>
+                <button class="btn2">继续发布任务</button>
+                <button class="btn3">返回任务中心</button>
+          
+           </div>
+         </div>
+      </div>
+    </div> 
+  </section>
+
+<div class="footer">
+    <div class="links">
+        <a href="#">关于我们</a>|
+        <a href="#">合作伙伴</a>|
+        <a href="#">技术支持</a>|
+        <a href="#">法律声明</a>|
+        <a href="#">联系我们</a>
+    </div>
+    <div class="text">
+        <p>公司名称:南京弗莱英网络科技有限公司 地址:南京秣陵科技创业中心东门清水亭西路2号中节能产业园A栋8楼  <br>客服电话:13956911452</p>
+        <p><a href="#">客服邮箱:591471488@qq.com</a></p>
+        <p>Powered by fulaiyin1.0 Copyright  2016 财税圈. All rights reserved  京ICP备14057654号-3<a href="http://icp.valu.cn/" target="_blank" id="footer_copyright_a"></a></p>
+    </div>
+    <div>
+        <a target="_black" href="http://www.itrust.org.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot1.png"/></a>
+        <a target="_black" href="http://www.baic.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot2.png"/></a>
+        <a target="_black" href="http://www.12321.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot3.png"/></a>
+        <a target="_black" href="http://www.bnia.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot4.png"/></a>
+        <a target="_black" href="http://www.bj.cyberpolice.cn/index.jsp"><img src="http://www.miaocaiwang.com/tpl/default/img/bot5.png"/></a>
+        <a target="_black" href="http://www.ctws.com.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot6.png"/></a>
+        <a target="_black" href="http://www.bjwhzf.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot7.png"/></a>
+    </div>
+</div>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/caisui.js"></script>
+    <script type="text/javascript" src="js/sidebar.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            window.um = UM.getEditor('container', {
+                toolbar: ['undo redo | bold italic underline']
+            });
+        });
+        $(".btn1").click(function(){
+            location.href="task.html";
+        });
+    </script>
+    <script type="text/javascript">
+	
+	window.onload=function(){
+        
+        //请选择服务类别
+		$("#fwlb-l").change(function(){
+			
+            var fwlb = $(this).val();
+            var swlb = $("#fwlb-l option:selected").attr("swlb-value");
+            //alert($("#fwlb-l option:selected").attr("swlb-value"));
+            var args = {
+            	"time": new Date(),
+            	"swlb": swlb
+            };
+
+            $("#fwlb-s option:not(frist)").remove();
+            $.get("data/fwlb.json",args,function(data){
+
+                if(data.length == 0){
+                	alert("当前服务暂无子类别");
+                }else{
+
+                	$.each(data.fwzlb,function(index,a){
+                		var fwName = a.fwName
+                		    fwVaule = a.fwVaule
+                            option = '<option fwzlb-value="'+ fwVaule +'">'+ fwName +'</option>';
+                		$("#fwlb-s").append(option);
+                	})
+                }
+            })
+		})
+        
+		//请选择城市
+		$("#fwarea-1").change(function(){
+            //alert("change");
+            var province = $("#fwarea-1 option:selected").attr("area-value");
+            var args = {
+            	"time": new Date(),
+            	"province": province
+            };
+
+            //alert($("#fwarea-2 option:not(frist)").val());
+            $.get("data/city.json",args,function(data){
+                // alert("getjson");
+                if(data.length == 0){
+                	alert("当前省份暂无提供服务的城市");
+                }else{
+                	$("#fwarea-2").show();
+                    $('#fwarea-2').find('option:not(:first)').remove();
+                	$.each(data.cityList,function(index,a){
+                		var cityName = a.cityName
+                		    cityValue = a.cityValue
+                            option = '<option city-value="'+ cityValue +'">'+ cityName +'</option>';
+                		$("#fwarea-2").append(option);
+                	})
+                }
+            })
+		})
+
+		//请选择三级地址
+		$("#fwarea-2").change(function(){
+            //alert("change");
+            var zone = $("#fwarea-2 option:selected").attr("city-value");
+            var args = {
+            	"time": new Date(),
+            	"zone": zone
+            };
+             
+            //alert($("#fwarea-2 option:not(frist)").val());
+            $.get("data/zone.json",args,function(data){
+                // alert("getjson");
+                if(data.length == 0){
+                	alert("当前省份暂无提供服务的城市");
+                }else{
+		            $("#fwarea-3").show();
+		            $('#fwarea-3').find('option:not(:first)').remove();
+                	$.each(data.zoneList,function(index,a){
+                		var zoneName = a.zoneName
+                		    zoneValue = a.zoneValue
+                            option = '<option zone-value="'+ zoneValue +'">'+ zoneName +'</option>';
+                		$("#fwarea-3").append(option);
+                	})
+                }
+            })
+		})
+
+		//填写完表单 点击下一步
+        $(".first_btn").click(function(){
+        	event.preventDefault();
+        	//var str = JSON.stringify($("#form1").serializeArray());
+        	var str = $("#form1").serializeArray();
+        	//alert(str[0].value);
+
+        	//jQuery.each( str, function(i, a){
+			   // alert(i+a.value);
+			//});
+        	//alert(str.value);
+
+        	//提交到验证php 返回验证成功后 以下
+            $(".rw-progress ul li").eq(1).addClass("step-active")
+            $("#main1").css('display','none');
+            $("#main2").css('display','block');
+        })
+        //填写完表单 在点击下一步
+        $('.second_btn').click(function(){
+            event.preventDefault();
+            var str =$('#form2').serializeArray();
+            $(".rw-progress ul li").eq(2).addClass("step-active");
+            $('#main2').css('display','none');
+            $('#main3').css('display','block');
+        })
+
+        //点击确认并提交 
+        $(".fours_btn").click(function(){
+        	event.preventDefault();
+
+        	//提交数据 JSON.stringify($("#form1").serializeArray()) 成功后 以下
+            
+            $(".rw-progress ul li").eq(3).addClass("step-active");
+             $('#main3').css('display','none');
+            $('#main4').css('display','block');
+        })
+
+        $(".btn2").click(function(){
+        	location.href='caishui.html'; 
+            
+     })
+     $('.btn3').click(function(){
+         location.href='taskCenter.html';
+     })
+	}
+
+</script>
+</body>
+</html>

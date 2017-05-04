@@ -1,0 +1,24 @@
+{
+	"cityList": [
+		{
+			"cityName":"南京",
+			"cityValue":"1"
+		},
+		{
+			"cityName":"苏州",
+			"cityValue":"2"
+		},
+		{
+			"cityName":"无锡",
+			"cityValue":"3"
+		},
+		{
+			"cityName":"常州",
+			"cityValue":"4"
+		},     
+		{
+			"cityName":"扬州",
+			"cityValue":"5"
+		}
+    ]
+}

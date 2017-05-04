@@ -1,0 +1,203 @@
+/*caisui.html部分*/
+.all_main{
+    margin-bottom: 10px;
+}
+.all_main >.all{
+    margin-top:10px!important;
+    border: 1px solid #ededed;
+    background-color: #fff;
+    width: 1000px;
+    margin: 0 auto;
+}
+.all_main>.all>.rw-progress{
+  padding-top: 30px; 
+  box-sizing: border-box;
+}
+.all_main>div>.rw-progress>ul>li {
+    float: left;
+    width: 25%;
+    border-top: 5px solid #d5d5d5;
+    position: relative;
+    box-sizing: border-box;
+    z-index: .5;
+}
+.step-active {
+    border-color: #3f8be9!important;
+}
+.all_main .all .rw-progress ul li span.step-icon {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: absolute;
+    z-index: 10;
+    top: -15px;
+    left: 50%;
+    margin-left: -12.5px;
+    background: #d5d5d5;
+    line-height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+.step-active span.step-icon {
+    background-color: #3f8be9!important;
+}
+.all_main .all .rw-progress ul li .step-text {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.step-active .step-text {
+    color: #3f8be9;
+}
+.rw-form {
+    padding: 35px 0px 15px 150px;
+}
+
+label {
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 15px;
+}
+label i {
+    color: #f00; 
+}
+select{
+    border: solid 1px #ddd;
+    width: 200px;
+    height: 35px;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+p input{
+    width:200px;
+    height:30px;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+#main1>button{
+    background: #0EAF52;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width:40%;
+    height:30px;
+    margin-left: 200px;
+}
+
+.type{
+    width:15%;
+    height:30px;
+}
+p>.load{
+    border:0;
+}
+p>.check{
+    width:13px;
+    height:13px;
+}
+#main2>button{
+    background: #0EAF52;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width:32%;
+    height:30px;
+}
+.edui-container{
+    width:543px !important;
+}
+.input,{
+    width:45.25%;
+    height:30px;
+}
+
+#main3{
+    padding-right:150px;
+    font-weight: bold;
+}
+#main3>p{
+    margin:2% 0;
+}
+.large{
+    font-size: large;
+}
+#main3>p>input{
+    width:10%;
+    height:30px;
+    background-color: transparent;
+    border:1px solid #999999 ;
+    border-radius: 5px;
+}
+#main3>p>span{
+    float:right;
+}
+.red{
+    color:#e4393c;
+}
+#main3>.right{
+    margin-left:76%;
+}
+#main3>.right>a{
+    color:#e4393c;
+}
+#main3>.rightt{
+    margin-left: 68%;
+}
+#main3>p>.margin_10{
+    margin-left: 62%;
+}
+#main3>p>button{
+    background: #0066cc;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width:20%;
+    height:30px;
+    margin-left: 9.8%;
+}
+#main4{
+    margin-left:-150px;
+    font-weight: bold;
+    text-align: center;
+}
+#main4>P{
+    margin-left: 20%;
+}
+#main4>p>img{
+    margin-left:150px;
+}
+#main4>p>span{
+    font-size: 20px;
+    float: right;
+    margin-right:51%;
+    padding-top:2%;
+}
+.btn1,.btn2,.btn3{
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width:25%;
+    height:30px;
+    margin-left: 1%;
+}
+.btn1{
+    background: #0066cc;
+}
+.btn2{
+    background-color: #0EAF52;
+}
+.btn3{
+    background-color: #eeeeee;
+    color: #222222;
+}

@@ -1,0 +1,153 @@
+body{color: #5a5a5a;}
+
+
+.office-service .servicebox{
+    width: 100%;
+    border-bottom: 1px solid #ededed;
+    padding: 10px 0px;
+   /* height: 118px;*/
+}
+.office-service .servicebox .serPic{
+	width: 150px;
+	height: 97px;
+}
+.office-service .servicebox .serBox{
+	width: 830px;
+}
+.office-service .servicebox .serBox .serTit{
+	line-height: 30px;
+}
+.office-service .servicebox .serBox p{
+	line-height: 20px;
+	font-size: 12px;
+}
+
+.office-service .servicebox .serBox .serTit span{
+    color: #f90;
+}
+.office-service .servicebox .serBox .serTit p a{
+	font-size: 14px;
+	display: inline-block;
+	line-height: 30px;
+}
+.office-service .servicebox .serBox .serTit p a:hover{
+	color: #f90;
+}
+.office-service .servicebox .serBox p span.rq{
+	display: inline-block;
+    line-height: 18px;
+    padding: 0px 5px;
+    border: 1px solid #ededed;
+    border-radius: 9px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.office-service .servicebox .serBox p span.rq i{color: #f90;}
+.office-service .servicebox .serBox p span.rq:hover{
+    background-color: #f90;
+    color: #fff;
+}
+.office-service .servicebox .serBox p span.rq:hover i{color: #fff;}
+.office-service .servicebox .serBox p.serCont{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90%;
+}
+
+/**分页**/
+.pagination{
+    text-align: center;
+    padding: 25px 0px 15px 0px;
+}
+.pagination ul{display: inline-block;}
+.pagination ul li{
+	float: left;
+	display: inline-block;
+	height: 33px;
+    line-height: 33px;
+    padding: 0px 15px;
+    background: #ddd;
+    margin-right: 5px;
+}
+.pagination ul li:hover{background-color: #2f7bcf;}
+.pagination ul li:hover a{color: #fff;}
+.pagination ul li.pagecount{background-color: #2f7bcf;}
+.pagination ul li a{font-size: 12px;color: #999999;}
+.pagination ul li.pagecount a{color: #fff;}
+
+
+
+
+
+.serDetail .servicebox{
+    border: none;
+}
+.serDetail .servicebox .serBox .serTit p a{
+	line-height: 35px;
+	font-size: 18px;
+}
+.serDetail .servicebox .serBox p{
+	line-height: 25px;
+	font-size: 14px;
+}
+.serDetail .servicebox .serBox .serTit span{font-size: 18px;}
+.detCont{padding:10px;}
+.detCont .tit{
+    line-height: 20px;
+    border-bottom: 1px solid #ededed;
+    border-left: 5px solid #f90;
+    padding-left: 8px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+.detCont p{
+    line-height: 22px;
+    text-indent: 15px;
+}
+.serflow ul li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    height: 108px;
+}
+.serflow ul li:hover i{
+    color: #f90;
+}
+.serflow ul li.arw-r:hover i{
+    color: #ddd;
+}
+.serflow ul li.arw-r{
+    line-height: 90px;
+    margin: 0px 8px;
+}
+.serflow ul li span{
+    display: block;
+}
+.serflow ul li span.flowsm{
+    line-height: 30px;
+    margin-top: 8px;
+}
+.serflow ul li span i{
+    font-size: 5em;
+    color: #ddd;
+    cursor: pointer;
+}
+.serflow ul li.arw-r span i{
+    font-size: 3em;
+}
+
+#contact ul li{
+    line-height: 25px;
+    padding-left: 13px;
+}
+.serDetail .servicebox .serBox p span.contact{
+    display: inline-block;
+    padding: 0px 10px;
+    background-color: #2f7bcf;
+    border-radius: 11px;
+}
+.serDetail .servicebox .serBox p span.contact a{
+    color: #fff;
+}

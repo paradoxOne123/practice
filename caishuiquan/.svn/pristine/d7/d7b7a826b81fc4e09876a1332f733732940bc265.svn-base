@@ -1,0 +1,6 @@
+.footer{width:100%;margin-top:20px;/*border-top:1px solid #999999;*/text-align: center;background-color: #484848;padding: 30px 0px;}
+.footer .links{line-height: 30px;}
+.footer .links a{display: inline-block; padding: 0px 5px;color: #fff;} 
+.footer .text {margin-bottom: 10px;}
+.footer .text p{line-height: 30px;color: #fff;}
+.footer .text p a{color: #fff;}

@@ -1,0 +1,21 @@
+$(function(){
+	
+	$(".icon-msg").mouseover(function(){
+		$(this).find("ul").slideDown(200);
+	});
+	$(".icon-msg").mouseleave(function(){
+		$(this).find("ul").hide();
+	});
+	$(".icon-setting").mouseover(function(){
+		$(this).find("ul").slideDown(200);
+	});
+	$(".icon-setting").mouseleave(function(){
+		$(this).find("ul").hide();
+	});
+	$(".search-bar").find("input").focusin(function(){
+		$(".search-hotlist").slideDown(300);
+	});
+	$(".search-bar").find("input").focusout(function(){
+		$(".search-hotlist").hide();
+	})
+})

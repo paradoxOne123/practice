@@ -1,0 +1,44 @@
+{
+   "free_video":[
+     {  
+        "lessonId": "l01",
+        "bgi":"images/freevideo1.jpg",
+        "play":"images/play.png",
+        "pro":"酒店餐饮业——会计政策选择",
+        "watch":"186",
+        "laud":"98"
+     } ,
+     {
+        "lessonId": "l01",
+         "bgi":"images/freevideo2.jpg",
+        "play":"images/play.png",
+        "pro":"酒店餐饮业——会计政策选择",
+        "watch":"186",
+        "laud":"99"
+     } ,
+     {
+        "lessonId": "l01",
+         "bgi":"images/freevideo3.jpg",
+        "play":"images/play.png",
+        "pro":"酒店餐饮业——会计政策选择",
+        "watch":"186",
+        "laud":"99"
+     } ,
+     {
+        "lessonId": "l01",
+         "bgi":"images/freevideo2.jpg",
+        "play":"images/play.png",
+        "pro":"酒店餐饮业——会计政策选择",
+        "watch":"186",
+        "laud":"99"
+     } ,
+     {
+        "lessonId": "l01",
+         "bgi":"images/freevideo1.jpg",
+        "play":"images/play.png",
+        "pro":"酒店餐饮业——会计政策选择",
+        "watch":"186",
+        "laud":"95"
+     }    
+   ]
+}

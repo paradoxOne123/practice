@@ -1,0 +1,505 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta charset="UTF-8">
+<head>
+	<title>财税圈 知识库</title>
+	<link rel="icon" href="images/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/konwledge.css">
+    <link rel="stylesheet" type="text/css" href="iconfont1/iconfont.css">
+</head>
+<body>
+
+<!--top-->
+<div class="top w_fluid clear">
+	<div class="toplist right">
+		<ul class="clear">
+		    <li><a href="index.html">首页</a></li>
+			<li><a class="bluelink" href="login.html">您好，请登录</a></li>
+			<li><a href="submit.html">免费注册</a></li>
+			<li><a href="userInformation.html">个人中心</a></li>
+			<li><a href="">购物车<span class="bluelink">0</span></a></li>
+			<li><a href="#">收藏网站</a></li>
+			<li><a href="#">关注我们</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a class="bluelink" href="#">服务热线：400-010-2233</a></li>
+		</ul>
+	</div>
+</div>
+<!--banner-->
+<div class="top_banner w_fluid">
+	<div class="top_banner_box clear">
+		<a><img style="width: 80px;height: 80px;" src="images/knowledge_logo.png"></a>
+		<span>知识库</span>
+	</div>
+    <form>
+		<div class="top_banner_search clear">
+
+		    <div class="nice-select" name="nice-select">
+			    <input type="text" value="全部">
+			    <ul style="display: none;">
+			        <li art-type="1" class="">知识</li>
+			        <li art-type="2" class="">业界</li>
+			        <li art-type="3">案例</li>
+			        <li art-type="4">法规</li>
+			        <li art-type="5">解读</li>
+			    </ul>
+			</div>
+
+	        <input class="seh-input" type="text">
+	        <button type="button"><span></span>搜索</button>
+            
+            <!---->
+	        <div class="sehpullbox">
+	        	
+	        	<!--分类框-->
+	        	<div class="sehfl">
+	        	    <p>行业分类</p>
+					<a href="javascript:;" target="_blank" hyfl-value="2">建筑施工</a>
+					<a href="javascript:;" target="_blank" hyfl-value="3">房地产</a>
+					<a href="javascript:;" target="_blank" hyfl-value="4">商业</a>
+					<a href="javascript:;" target="_blank" hyfl-value="5">服务</a>
+					<a href="javascript:;" target="_blank" hyfl-value="6">金融保险</a>
+					<a href="javascript:;" target="_blank" hyfl-value="7">交通运输</a>
+					<a href="javascript:;" target="_blank" hyfl-value="8">信息技术</a>
+					<a href="javascript:;" target="_blank" hyfl-value="9">教育</a>
+					<a href="javascript:;" target="_blank" hyfl-value="10">进出口</a>
+					<a href="javascript:;" target="_blank" hyfl-value="11">工业</a>
+					<a href="javascript:;" target="_blank" hyfl-value="12">农业</a>
+					<a href="javascript:;" target="_blank" hyfl-value="13">信息技术</a>
+					<a href="javascript:;" target="_blank" hyfl-value="14">公共管理</a>
+					<a href="javascript:;" target="_blank" hyfl-value="15">上市公司</a>
+					<a href="javascript:;" target="_blank" hyfl-value="16">外资</a>
+					<a href="javascript:;" target="_blank" hyfl-value="17">汽车</a>
+					<a href="javascript:;" target="_blank" hyfl-value="18">食品</a>
+					<a href="javascript:;" target="_blank" hyfl-value="19">石油天然气</a>
+					<a href="javascript:;" target="_blank" hyfl-value="20">资源供应</a>
+					<a href="javascript:;" target="_blank" hyfl-value="21">加工修理</a>
+					<a href="javascript:;" target="_blank" hyfl-value="22">服装纺织</a>
+					<a href="javascript:;" target="_blank" hyfl-value="23">邮电通讯</a>
+					<a href="javascript:;" target="_blank" hyfl-value="24">旅游餐饮</a>
+					<a href="javascript:;" target="_blank" hyfl-value="25">医疗卫生</a>
+					<a href="javascript:;" target="_blank" hyfl-value="26">文化体育</a>
+					<a href="javascript:;" target="_blank" hyfl-value="27">烟酒</a>
+
+					<p class="top10">热门标签</p>
+        		    <a href="javascript:;" target="_blank" htag-value="0">营改增</a>
+					<a href="javascript:;" target="_blank" htag-value="2">出口退税</a>
+					<a href="javascript:;" target="_blank" htag-value="3">小微企业</a>
+					<a href="javascript:;" target="_blank" htag-value="4">发票管理</a>
+					<a href="javascript:;" target="_blank" htag-value="5">税前扣除</a>
+					<a href="javascript:;" target="_blank" htag-value="6">企业所得税</a>
+					<a href="javascript:;" target="_blank" htag-value="7">房产税</a>
+					<a href="javascript:;" target="_blank" htag-value="8">车辆购置税</a>
+					<a href="javascript:;" target="_blank" htag-value="9">契税</a>
+	        	</div>
+
+	        	<!--推荐列表-->
+	        	<div class="sehtj">
+	        		<ul>
+	        			
+	        		</ul>
+	        	</div>
+	        </div>
+	    </div>
+    </form>
+    
+    <div class="rmss w_1000">
+       热门搜索：
+       <a href="#">营改增</a><a href="#">金税三期</a><a href="#">增值税</a><a href="#">案例解析</a>
+   </div>
+   <p>已收录知识<span id="count_1" class="count">2392</span>篇，今日新增<span id="count_2" class="count">56</span>篇</p>
+
+</div>
+
+<!--main content-->
+<div class="w_1000">
+
+    <div class="box_1 w_fluid clear">
+		<!--left-->
+		<div class="leftcont left" style="width: 755px;">
+
+		    <!--文章列表-->
+		    <div class="artList">
+		    	
+		    	<!--article-->
+		    	<div class="artBox">
+		    		<h2><a href="reading.html">关于《关于落实煤炭资源税优惠政策若干事项的公告》的解读</a></h2>
+		    		<div class="preview">
+		    			<p>煤炭资源税从价计征改革自2014年12月1日实施以来，一些地区相继提出如何落实《财政部 国家税务总局关于实施煤炭资源税改革的通知》（财税〔2014〕72号）规定的两项税收优惠问题。这两项税收优惠，即是对衰竭期煤矿开采的煤规定的两项税收优惠问题</p>
+		    		</div>
+		    		<div class="artInfo clear">
+		    			<div class="left"><i class="iconfont">&#xe661;</i>阅读(<span class="resdCount">50</span>)</div>
+		    			<div class="left"><i class="iconfont">&#xe60b;</i>评论(<span class="commentCount">12</span>)</div>
+		    			<div class="right">
+		    				<i class="iconfont">&#xe64d;</i><span class="date">2016-07-20</span>
+		    			</div>
+		    		</div>
+		    	</div>
+
+		    	<!--article-->
+		    	<div class="artBox">
+		    		<h2><a href="reading.html">关于《关于落实煤炭资源税优惠政策若干事项的公告》的解读</a></h2>
+		    		<div class="preview">
+		    			<p>煤炭资源税从价计征改革自2014年12月1日实施以来，一些地区相继提出如何落实《财政部 国家税务总局关于实施煤炭资源税改革的通知》（财税〔2014〕72号）规定的两项税收优惠问题。这两项税收优惠，即是对衰竭期煤矿开采的煤规定的两项税收优惠问题</p>
+		    		</div>
+		    		<div class="artInfo clear">
+		    			<div class="left"><i class="iconfont">&#xe661;</i>阅读(<span class="resdCount">50</span>)</div>
+		    			<div class="left"><i class="iconfont">&#xe60b;</i>评论(<span class="commentCount">12</span>)</div>
+		    			<div class="right">
+		    				<i class="iconfont">&#xe64d;</i><span class="date">2016-07-20</span>
+		    			</div>
+		    		</div>
+		    	</div>
+
+		    	<!--article-->
+		    	<div class="artBox">
+		    		<h2><a href="reading.html">关于《关于落实煤炭资源税优惠政策若干事项的公告》的解读</a></h2>
+		    		<div class="preview">
+		    			<p>煤炭资源税从价计征改革自2014年12月1日实施以来，一些地区相继提出如何落实《财政部 国家税务总局关于实施煤炭资源税改革的通知》（财税〔2014〕72号）规定的两项税收优惠问题。这两项税收优惠，即是对衰竭期煤矿开采的煤规定的两项税收优惠问题</p>
+		    		</div>
+		    		<div class="artInfo clear">
+		    			<div class="left"><i class="iconfont">&#xe661;</i>阅读(<span class="resdCount">50</span>)</div>
+		    			<div class="left"><i class="iconfont">&#xe60b;</i>评论(<span class="commentCount">12</span>)</div>
+		    			<div class="right">
+		    				<i class="iconfont">&#xe64d;</i><span class="date">2016-07-20</span>
+		    			</div>
+		    		</div>
+		    	</div>
+
+		    	<!--article-->
+		    	<div class="artBox">
+		    		<h2><a href="reading.html">关于《关于落实煤炭资源税优惠政策若干事项的公告》的解读</a></h2>
+		    		<div class="preview">
+		    			<p>煤炭资源税从价计征改革自2014年12月1日实施以来，一些地区相继提出如何落实《财政部 国家税务总局关于实施煤炭资源税改革的通知》（财税〔2014〕72号）规定的两项税收优惠问题。这两项税收优惠，即是对衰竭期煤矿开采的煤规定的两项税收优惠问题</p>
+		    		</div>
+		    		<div class="artInfo clear">
+		    			<div class="left"><i class="iconfont">&#xe661;</i>阅读(<span class="resdCount">50</span>)</div>
+		    			<div class="left"><i class="iconfont">&#xe60b;</i>评论(<span class="commentCount">12</span>)</div>
+		    			<div class="right">
+		    				<i class="iconfont">&#xe64d;</i><span class="date">2016-07-20</span>
+		    			</div>
+		    		</div>
+		    	</div>
+
+		    	<!--article-->
+		    	<div class="artBox">
+		    		<h2><a href="reading.html">关于《关于落实煤炭资源税优惠政策若干事项的公告》的解读</a></h2>
+		    		<div class="preview">
+		    			<p>煤炭资源税从价计征改革自2014年12月1日实施以来，一些地区相继提出如何落实《财政部 国家税务总局关于实施煤炭资源税改革的通知》（财税〔2014〕72号）规定的两项税收优惠问题。这两项税收优惠，即是对衰竭期煤矿开采的煤规定的两项税收优惠问题</p>
+		    		</div>
+		    		<div class="artInfo clear">
+		    			<div class="left"><i class="iconfont">&#xe661;</i>阅读(<span class="resdCount">50</span>)</div>
+		    			<div class="left"><i class="iconfont">&#xe60b;</i>评论(<span class="commentCount">12</span>)</div>
+		    			<div class="right">
+		    				<i class="iconfont">&#xe64d;</i><span class="date">2016-07-20</span>
+		    			</div>
+		    		</div>
+		    	</div>
+
+		    	<!--article-->
+		    	<div class="artBox">
+		    		<h2><a href="reading.html">关于《关于落实煤炭资源税优惠政策若干事项的公告》的解读</a></h2>
+		    		<div class="preview">
+		    			<p>煤炭资源税从价计征改革自2014年12月1日实施以来，一些地区相继提出如何落实《财政部 国家税务总局关于实施煤炭资源税改革的通知》（财税〔2014〕72号）规定的两项税收优惠问题。这两项税收优惠，即是对衰竭期煤矿开采的煤规定的两项税收优惠问题</p>
+		    		</div>
+		    		<div class="artInfo clear">
+		    			<div class="left"><i class="iconfont">&#xe661;</i>阅读(<span class="resdCount">50</span>)</div>
+		    			<div class="left"><i class="iconfont">&#xe60b;</i>评论(<span class="commentCount">12</span>)</div>
+		    			<div class="right">
+		    				<i class="iconfont">&#xe64d;</i><span class="date">2016-07-20</span>
+		    			</div>
+		    		</div>
+		    	</div>
+		    </div>
+
+		    <div class="pagination">
+				<ul class="clear">
+					<li class="fristpage"><a href="#">首页</a></li>
+					<li class="prevpage"><a href="#"><i class="iconfont">&#xe660;</i></a></li>
+					<li class="pagecount"><a href="#">1</a></li>
+					<li class="pagecount"><a href="#">2</a></li>
+					<li class="pagecount"><a href="#">3</a></li>
+					<li class="nextpage"><a href="#"><i class="iconfont">&#xe65f;</i></a></li>
+					<li class="lastpage"><a href="#">尾页</a></li>
+				</ul>
+			</div>
+			
+			<!--财税法规-->
+			<!-- <div class="csfg">
+				<div class="csfgcont hover-border">
+					
+					<div class="main-tit clear">
+					    <i class="left"></i> 
+						<h3 class="left">财税讲堂</h3>
+					</div>
+
+					<ul>
+						<li>
+							<a href="reading.html"><span></span>民政部、财政部关于开展2016年居家和社区养老服务改革试点申报工作的通知</a>
+							<b>2016-07-20</b>
+						</li>
+						<li>
+							<a href="reading.html"><span></span>青岛市国家税务局取消认证友情提示</a>
+							<b>2016-07-20</b>
+						</li>
+
+						<li>
+							<a href="reading.html"><span></span>厦门市国家税务局关于开展2016年减免税统计调查工作的通知</a>
+							<b>2016-07-20</b>
+						</li>
+						<li>
+							<a href="reading.html"><span></span>厦门市地方税务局关于发布修订后的印花税纳税申报表的通告</a>
+							<b>2016-07-20</b>
+						</li>
+						<li>
+							<a href="reading.html"><span></span>厦门市地方税务局关于发布修订后的房产税纳税申报表的通告</a>
+							<b>2016-07-20</b>
+						</li>
+						<li>
+							<a href="reading.html"><span></span>国家工商行政管理总局关于立足部门职能积极帮扶化解过剩产能职工就业创业的通知</a>
+							<b>2016-07-20</b>
+						</li>
+						<li>
+							<a href="reading.html"><span></span>厦门市地方税务局关于发布修订后的城镇土地使用税纳税申报表的通告</a>
+							<b>2016-07-20</b>
+						</li>
+					</ul>
+				</div>
+			</div> -->
+
+			<!--政策解读-->
+			<!-- <div class="csfg" style="margin-top:10px;">
+				<div class="csfgcont hover-border">
+					
+					<div class="main-tit clear">
+					    <i class="left"></i> 
+						<h3 class="left">政策解读</h3>
+					</div>
+
+					<ul>
+						<li>
+							<a href="reading.html"><span></span>《北京市国家税务局 北京市地方税务局关于个人申请代开普通发票有关事项的公告》的政策解读</a>
+							<b>2016-07-19</b>
+						</li>
+						<li>
+							<a href="reading.html"><span></span>关于《国家税务总局关于个人保险代理人税收征管有关问题的公告》的解读</a>
+							<b>2016-07-19</b>
+						</li>
+
+						<li>
+							<a href="reading.html"><span></span>关于《国家税务总局关于完善关联申报和同期资料管理有关事项的公告》的解读</a>
+							<b>2016-07-18</b>
+						</li>
+						<li>
+							<a href="reading.html"><span></span>关于《国家税务总局关于设有固定装置非运输车辆免征车辆购置税有关事项的公告》的解读</a>
+							<b>2016-07-17</b>
+						</li>
+						<li>
+							<a href="reading.html"><span></span>关于《国家税务总局关于部分地区开展住宿业增值税小规模纳税人自开增值税专用发票试点工作有关事项的公告》的解读</a>
+							<b>2016-07-16</b>
+						</li>
+						<li>
+							<a href="reading.html"><span></span>关于《浙江省国家税务局关于规范增值税电子普通发票管理的公告》的解读</a>
+							<b>2016-07-15</b>
+						</li>
+						<li>
+							<a href="reading.html"><span></span>关于《广东省国家税务局关于实行税收实名制管理的公告》的政策解读</a>
+							<b>2016-07-15</b>
+						</li>
+					</ul>
+				</div>
+			</div> -->
+		</div>
+
+		<!--right-->
+		<div class="rightcont right">
+		    <!--问答精选-->
+			<div class="wdjx">
+				<div class="wdjxcont hover-border">
+					<div class="main-tit clear">
+					    <i class="left"></i> 
+						<h3 class="left">问答精选</h3>
+					</div>
+
+					<ul>
+						<li><a href="reading.html">企业招收自主创业人员有什么税收优惠？</a></li>
+						<li><a href="reading.html">那些人员可享受自主创业税收优惠？</a></li> 
+	                    <li><a href="reading.html">总公司将一块地划转给分公司，需要确认收入缴纳所得税吗？</a></li>
+	                    <li><a href="reading.html">纳税人提供管道运输服务如何享受增值税优惠？</a></li>
+						<li><a href="reading.html">原汇总缴纳营业税的金融机构营改增后如何缴纳增值税？</a></li>
+						<li><a href="reading.html">我单位是一家私营贸易公司，请问发生的党组织工作经费在计算企业所得税时能税前扣除吗？</a></li>
+						<li><a href="reading.html">国内个人缴纳车辆购置税需要携带哪些资料？</a></li>
+						<li><a href="reading.html">个人将购买不足2年的住房对外销售需要交税吗？</a></li>
+						<li><a href="reading.html">个人将购买2年以上（含2年）的住房对外销售需要交税吗？</a></li>
+						<li><a href="reading.html">我公司是渔业公司，在湖泊和水库内进行水产养殖并销售，是否可以享受企业所得税的优惠政策？</a></li>
+						<li><a href="reading.html">自主创业有什么税收优惠？</a></li>
+						<li><a href="reading.html">增值税红字发票的10个问题，总会用上的</a></li>
+						<li><a href="reading.html">请问金融企业针对中小企业的贷款损失准备金是否可以在企业所得税前扣除？</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="gg1">
+				<a href="reading.html"><img src="images/gg_01.png"></a>
+			</div>
+		</div>
+    </div>	
+
+    <div class="box_2 w_fluid clear">
+    	<!--left-->
+    	<div class="leftcont left">
+    		<div class="sfal">
+    			<div class="sfalcont clear hover-border">
+    				<div class="sfal-left-img left">
+    					<a href="reading.html"><img src="images/sfal_bj.png"></a>
+    				</div>
+    				<div class="sfal-right right">
+    					<div class="main-tit clear">
+						    <i class="left"></i> 
+							<h3 class="left">问答精选</h3>
+						</div>
+
+						<ul>
+				        	<li><a href="reading.html" target="_blank"><span></span>儿童投资主基金与中华人民共和...</a><b>07-18</b></li>	
+				        	<li><a href="reading.html" target="_blank"><span></span>新疆维吾尔自治区地方税务局稽...</a><b>06-02</b></li>	
+				        	<li><a href="reading.html" target="_blank"><span></span>陈等虚开增值税专用发票、用于...</a><b>06-02</b></li>	
+				        	<li title=""><a href="reading.html" target="_blank"><span></span>桑浩民与北京市海淀区地方税务...</a><b>06-02</b></li>	
+				        	<li title=""><a href="reading.html" target="_blank"><span></span>北京市大兴区地方税务局稽查局...</a><b>06-02</b></li>	
+				        	<li title=""><a href="reading.html" target="_blank"><span></span>张×1等虚开增值税专用发票、...</a><b>06-02</b></li>		       
+				        </ul>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+
+    	<!--right-->
+    	<div class="rightcont right">
+    		<div class="sfal">
+    			<div class="sfalcont clear hover-border">
+    				<div class="sfal-left-img left">
+    					<a href="reading.html"><img src="images/sfal_bj1.png"></a>
+    				</div>
+    				<div class="sfal-right right">
+    					<div class="main-tit clear">
+						    <i class="left"></i> 
+							<h3 class="left">财税文集</h3>
+						</div>
+
+						<ul>
+				        	<li><a href="reading.html" target="_blank"><span></span>营业税改征增值税试点过渡政策</a><b>07-18</b></li>	
+				        	<li><a href="reading.html" target="_blank"><span></span>装卸费收取方式有学问</a><b>06-02</b></li>	
+				        	<li><a href="reading.html" target="_blank"><span></span>营改增优惠问答（扣减增值税部分）</a><b>06-02</b></li>	
+				        	<li title=""><a href="reading.html" target="_blank"><span></span>签约方式决定税负差异</a><b>06-02</b></li>	
+				        	<li title=""><a href="reading.html" target="_blank"><span></span>营业税改征增值税优惠政策问答（即征即退部分）</a><b>06-02</b></li>	
+				        	<li title=""><a href="reading.html" target="_blank"><span></span>营改增优惠问答（简易计税部分）</a><b>06-02</b></li>		       
+				        </ul>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div class="box_3 w_fluid clear">
+    	<!--left-->
+    	<div class="leftcont left">
+    		<div class="csbk">
+    			<div class="csbkcont hover-border">
+    				<div class="main-tit clear">
+					    <i class="left"></i> 
+						<h3 class="left">财税文集</h3>
+					</div>
+
+					<div class="csbk-tags">
+						<a href="reading.html" target="_blank"><span>增值税专用...</span></a>
+						<a href="reading.html" target="_blank"><span>内部财务...</span></a>
+						<a href="reading.html" target="_blank"><span>税法立法解释</span></a>
+						<a href="reading.html" target="_blank"><span>正常交易...</span></a>
+						<a href="reading.html" target="_blank"><span>中华人民共...</span></a>
+						<a href="reading.html" target="_blank"><span>帐面利润</span></a>
+						<a href="reading.html" target="_blank"><span>关税滞纳金</span></a>
+						<a href="reading.html" target="_blank"><span>专用借款</span></a>
+					</div>
+
+    			</div>
+    		</div>
+    	</div>
+
+    	<!--right-->
+    	<div class="rightcont right">
+    		<div class="rmbq">
+    			<div class="rmbqcont hover-border">
+    				<div class="main-tit clear">
+					    <i class="left"></i> 
+						<h3 class="left">热门标签</h3>
+					</div>
+
+					<div class="csbk-tags">
+						<a href="reading.html" target="_blank"><span>营改增</span></a>
+						<a href="reading.html" target="_blank"><span>金税三期</span></a>
+						<a href="reading.html" target="_blank"><span>增值税</span></a>
+						<a href="reading.html" target="_blank"><span>案例解析</span></a>
+						<a href="reading.html" target="_blank"><span>增值税一般纳税人</span></a>
+						<a href="reading.html" target="_blank"><span>发票管理</span></a>
+						<a href="reading.html" target="_blank"><span>申报系统</span></a>
+						<a href="reading.html" target="_blank"><span>涉税鉴证业务</span></a>
+						<a href="reading.html" target="_blank"><span>生活服务业</span></a>
+						<a href="reading.html" target="_blank"><span>软件</span></a>
+						<a href="reading.html" target="_blank"><span>建筑业</span></a>
+						<a href="reading.html" target="_blank"><span>小型微利企业</span></a>
+						<a href="reading.html" target="_blank"><span>餐饮业</span></a>
+						<a href="reading.html" target="_blank"><span>进项税抵扣</span></a>
+						<a href="reading.html" target="_blank"><span>金税三期工程</span></a>
+						<a href="reading.html" target="_blank"><span>纳税申报</span></a>
+						<a href="reading.html" target="_blank"><span>增值税专用</span></a>
+						<a href="reading.html" target="_blank"><span>内部财务</span></a>
+						<a href="reading.html" target="_blank"><span>税法立法解释</span></a>
+						<a href="reading.html" target="_blank"><span>正常交易</span></a>
+						<a href="reading.html" target="_blank"><span>中华人民</span></a>
+						<a href="reading.html" target="_blank"><span>帐面利润</span></a>
+						<a href="reading.html" target="_blank"><span>关税滞纳金</span></a>
+						<a href="reading.html" target="_blank"><span>专用借款</span></a>
+						<a href="reading.html" target="_blank"><span>增值税</span></a>
+						<a href="reading.html" target="_blank"><span>案例解析</span></a>
+					</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+</div>
+
+<!--footer-->
+<div class="footer">
+    <div class="links">
+        <a href="#">关于我们</a>|
+        <a href="#">合作伙伴</a>|
+        <a href="#">技术支持</a>|
+        <a href="#">法律声明</a>|
+        <a href="#">联系我们</a>
+    </div>
+    <div class="text">
+        <p>公司名称:南京弗莱英网络科技有限公司 地址:南京秣陵科技创业中心东门清水亭西路2号中节能产业园A栋8楼 <br> 客服电话:13956911452</p>
+        <p><a href="#">客服邮箱:591471488@qq.com</a></p>
+        <p>Powered by fulaiyin1.0 Copyright  2016 财税圈. All rights reserved  京ICP备14057654号-3<a href="http://icp.valu.cn/" target="_blank" id="footer_copyright_a"></a></p>
+    </div>
+    <div>
+        <a target="_black" href="http://www.itrust.org.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot1.png"/></a>
+        <a target="_black" href="http://www.baic.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot2.png"/></a>
+        <a target="_black" href="http://www.12321.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot3.png"/></a>
+        <a target="_black" href="http://www.bnia.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot4.png"/></a>
+        <a target="_black" href="http://www.bj.cyberpolice.cn/index.jsp"><img src="http://www.miaocaiwang.com/tpl/default/img/bot5.png"/></a>
+        <a target="_black" href="http://www.ctws.com.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot6.png"/></a>
+        <a target="_black" href="http://www.bjwhzf.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot7.png"/></a>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="js/knowledge.js"></script>
+<script type="text/javascript" src="js/knowledge-seh.js"></script>
+<script type="text/javascript" src="js/sidebar.js"></script>
+
+</body>
+</html>

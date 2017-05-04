@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <link rel="stylesheet" type="text/css" href="../css/swiper-3.3.1.min.css"/>
+        <link rel="stylesheet" href="iconfont/iconfont.css">
+        <link rel="stylesheet" type="text/css" href="../css/footer.css">
+        <link rel="stylesheet" type="text/css" href="css/questionBox.css">      
+        <link rel="stylesheet" type='text/css' href="css/fenda.css">
+        <link rel="icon" href="../images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="../css/sidebar.css">
+        <script type="text/javascript" src="../js/jquery-1.12.3.js"></script>
+        <script type="text/javascript" src="../js/sidebar.js"></script>
+        <script type="text/javascript" src="../js/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/swiper-3.3.1.jquery.min.js"></script>
+        <script type="text/javascript" src="js/fenda.js"></script>    
+        <title>来问问吧</title>
+    </head>
+    <body>
+        <div class="title clear">
+             <div class="left_box">
+				 <ul>
+					 <li><a href="index.html">首页</a></li>
+					 <li><a href="myQuestion.html">个人中心</a></li>
+				 </ul> 
+             </div>
+             <div class="search_box">
+                <input type="text" placeholder="请输入你想搜索的话题">
+                <a href=""><i class="icon iconfont">&#xe610;</i></a>
+             </div>
+        </div>
+     <section class="clear">
+
+        <!--专家介绍-->
+            <div class="expert clear">
+                <p>知名专家</p>
+             </div>
+             <!--热门问答-->
+            <div class='msg'>
+               <p class='tip'>热门问答</p>
+               <div class="my-questions">
+			       
+               </div>
+               <div class="href">
+                        <a href=""> 上一页 |</a>
+                        <span class="active"> 1 </span>
+                        <span> 2 </span>
+                        <span> 3 </span>
+                        <span> 4 </span>
+                        <span> 5 </span>
+                        <span> 6 </span>
+                        <span> 7 </span>
+                        <a href="">  | 下一页</a>
+              </div>
+           </div>
+           
+          <!--广告页-->
+          
+            <div id='banner_ad'>
+                <div class="swiper-container" style="height:150px;">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img style="width: 225px;height: 150px;" src="../images/zt2.jpg"></div>
+                        <div class="swiper-slide"><img style="width: 225px;height: 150px;" src="../images/zt1.jpg"></div>
+                        <div class="swiper-slide"><img style="width: 225px;height: 150px;" src="../images/zt2.jpg"></div>
+                    </div>
+                    <div class="swiper-button-prev swiper-button-black" style="height:27px;"></div>
+                    <div class="swiper-button-next swiper-button-black" style="height:27px;"></div>
+                </div>
+             </div>   
+            
+            <!--翻转广告-->
+            <div class="banner_rotate">
+                <img src="images/rotate.gif">
+            </div>
+			<div class='ask'>
+				<p>热门搜索</p>
+				<ul>
+					<li><span>1</span><a href="">2016财税法张曹阳教授的..</a></li>
+					<li><span>2</span><a href="">最为中国的老牌财税机构... </a></li>
+					<li><span>3</span><a href="">最美税务师吴丽对财税的看... </a></li>
+					<li><span>4</span><a href="">新增纳税法的一些问题解..</a></li>
+					<li><span>5</span><a href="">关于我国税务的基本架构..</a></li>
+				</ul>
+			</div>
+      </section>
+      <div class="footer">
+   		 <div class="links">
+        	<a href="#">关于我们</a>|
+       		<a href="#">合作伙伴</a>|
+			<a href="#">技术支持</a>|
+			<a href="#">法律声明</a>|
+       		<a href="#">联系我们</a>
+    	</div>
+   		 <div class="text">
+        	<p>公司名称:南京弗莱英网络科技有限公司 地址:南京秣陵科技创业中心东门清水亭西路2号中节能产业园A栋8楼 客服电话:13956911452</p>
+        	<p><a href="#">客服邮箱:591471488@qq.com</a></p>
+        	<p>Powered by fulaiyin1.0 Copyright  2016 财税圈. All rights reserved  京ICP备14057654号-3<a href="http://icp.valu.cn/" target="_blank" id="footer_copyright_a"></a></p>
+    	</div>
+  		  <div>
+        	<a target="_black" href="http://www.itrust.org.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot1.png"/></a>
+			<a target="_black" href="http://www.baic.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot2.png"/></a>
+			<a target="_black" href="http://www.12321.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot3.png"/></a>
+			<a target="_black" href="http://www.bnia.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot4.png"/></a>
+			<a target="_black" href="http://www.bj.cyberpolice.cn/index.jsp"><img src="http://www.miaocaiwang.com/tpl/default/img/bot5.png"/></a>
+			<a target="_black" href="http://www.ctws.com.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot6.png"/></a>
+			<a target="_black" href="http://www.bjwhzf.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot7.png"/></a>
+    	 </div>
+	</div>
+    </body>
+	<script>
+        var mySwiper = new Swiper ('.swiper-container', {
+             direction: 'vertical',
+            loop: true,
+            pagination: '.swiper-pagination',
+             nextButton: '.swiper-button-next',
+             prevButton: '.swiper-button-prev',
+        }) 
+    </script>   
+</html>
+

@@ -1,0 +1,92 @@
+/*������*/
+
+section>.father>.user_pic>.user-tx{
+	margin:0 auto;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 2%;
+}
+
+.list>ul>.flw{
+	background-color: #FFF;
+}
+.list>ul>.bl{
+    background-color: #F2F2F5;
+}
+.list>ul>.bg:hover{
+	background-color: #F2F2F5;
+}
+.list>ul>li>a{
+	color:#333;
+}
+.list>ul>li>a:hover{
+	color: #EB7350;
+}
+.list>ul>.flw>a{
+	color: #333;
+}
+.list>ul>.bl>a{
+    color: #eb7350;
+}
+.menu>.blacklist{
+    overflow: hidden;
+}
+.menu>.blacklist>.blacklist_content{
+    float: left;
+    margin:5px;
+    width: 280px;
+    overflow: hidden;
+    padding: 3%;
+    background-color: #F2F2F5;
+}
+
+.menu>.blacklist>.blacklist_content>.pic>img {
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+    float:left;
+}
+.menu>.blacklist>.blacklist_content>.msg{
+    float:left;
+    margin-left: 2px;
+    border-left: 1px solid #ddd;
+}
+.menu>.blacklist>.blacklist_content>.msg>p{
+  padding:0 0  5px  5px;
+}
+.menu>.blacklist>.blacklist_content>.msg>p>span{
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.menu>.blacklist>.blacklist_content>.msg>p>.reg{
+     width:17px;
+     height:16px;
+ }
+.menu>.blacklist>.blacklist_content>.msg>p>.sex{
+    width:16px;
+    height:16px;
+}
+.menu>.blacklist>.blacklist_content>.msg>p>span:hover{
+    color:#EB7350
+}
+.menu>.blacklist>.blacklist_content>.msg>p>.btn{
+    width:84px;
+    height:26px;
+    background-color: #fff;
+    border:1px solid #d9d9d9;
+    cursor: pointer;
+}
+.menu>.blacklist>.blacklist_content>.msg>p>.btn:hover{
+    border:1px solid #ccc;
+}
+
+.menu>.modal>.modal-dialog>.modal-content{
+    position: fixed;
+    top:204px;
+    left:540px;
+    bottom: 308px;
+    right:485px;
+}
+

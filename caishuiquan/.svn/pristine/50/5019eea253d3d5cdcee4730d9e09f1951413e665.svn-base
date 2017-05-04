@@ -1,0 +1,45 @@
+{
+ "blacklist":[
+     {"list":
+        { "people":"6"  }     
+     },
+     {"blackpeople":[
+        { "userpic":"images/album2.jpg",
+           "username":"杨松 ",
+           "userreg":"images/reg.png",
+           "usersex":"images/man.png",
+           "date":"2016-5-5 10:26:52"
+        },
+        { "userpic":"images/album3.jpg",
+           "username":"杨松 ",
+           "userreg":"images/reg.png",
+           "usersex":"images/man.png",
+           "date":"2016-5-5 10:26:52"
+        },
+        { "userpic":"images/album3.jpg",
+           "username":"杨松 ",
+           "userreg":"images/reg.png",
+           "usersex":"images/man.png",
+           "date":"2016-5-5 10:26:52"
+        },
+        { "userpic":"images/album3.jpg",
+           "username":"杨松 ",
+           "userreg":"images/reg.png",
+           "usersex":"images/man.png",
+           "date":"2016-5-5 10:26:52"
+        },
+        { "userpic":"images/album3.jpg",
+           "username":"杨松 ",
+           "userreg":"images/reg.png",
+           "usersex":"images/man.png",
+           "date":"2016-5-5 10:26:52"
+        },
+        { "userpic":"images/album3.jpg",
+           "username":"杨松 ",
+           "userreg":"images/reg.png",
+           "usersex":"images/man.png",
+           "date":"2016-5-5 10:26:52"
+        }
+     ]}
+  ]
+ }

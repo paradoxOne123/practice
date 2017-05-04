@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/officeindex.css">
+<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css">
+<link rel="stylesheet" type="text/css" href="../css/footer.css">
+<link rel="stylesheet" type="text/css" href="../css/header.css">
+<link rel="stylesheet" type="text/css" href="../css/sidebar.css">
+<script type="text/javascript" src="../js/jquery-1.12.3.js"></script>
+<script type="text/javascript" src="../js/sidebar.js"></script>
+<script type="text/javascript" src="js/officeindex.js"></script>
+	<title>财税圈-代账无忧</title>
+</head>
+<body>
+
+<!--top-->
+<div class="top w_fluid clear">
+	<div class="toplist right">
+		<ul class="clear">
+		    <li><a href="../index.html">首页</a></li>
+			<li><a class="bluelink" href="../login.html">您好，请登录</a></li>
+			<li><a href="../submit.html">免费注册</a></li>
+			<li><a href="../userInformation.html">个人中心</a></li>
+			<li><a href="">购物车<span class="bluelink">0</span></a></li>
+			<li><a href="#">收藏网站</a></li>
+			<li><a href="#">关注我们</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a class="bluelink" href="#">服务热线：400-010-2233</a></li>
+		</ul>
+	</div>
+</div>
+
+<!--header-->
+<div class="header office-header w_fluid">
+	<div class="w_1000 clear">
+		<div class="logobox left">
+			<a href="index.html"><img src="../images/logo.jpg"></a>
+		</div>
+		<div class="right">
+			<h2 class="office-name">张家港市兴瑞税务师事务所</h2>
+			<div class="office-rq top10">
+				<span><i class="iconfont">&#xe639;</i>人气：<span class="rq">5</span></span>
+				<span><i class="iconfont">&#xe60b;</i>人气：<span class="gz">15</span></span>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="w_fluid"><img class="img-auto" src="images/top.jpg"></div>
+
+<!--nav-->
+<div class="w_fluid navbar">
+    <div class="w_1000">
+        <ul class="clear">
+            <li class="nav-active"><a href="officeindex.html">首页</a></li>
+            <li><a href="serviceList.html">专业服务</a></li>
+            <li><a href="officer.html">专业团队</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--事务所首页-->
+<div class="maincontent-container clearfix">
+	<div class="maincontent-left">
+		<!--事务所简介-->
+		<div class="office-intro">
+			<h3>事务所介绍</h3>
+			<div class="clearfix">
+				<img src="images/officelogo.jpg" alt="">
+				<div>
+					<h4>云南勤实税务师事务所有限公司</h4>
+					<p>云南勤实税务师事务所有限公司是经国家税务总局注册税务师管理中心批准成立，经云南省工商行政管理局注册登记，具有独立法人资格，专门从事税务代理及咨询业务的全省性专业中介机构，并于2014年取得了A级税务师事务所认定。</p>
+					<p>公司自成立以来，本着独立、客观、公证、保密的原则，先后为多家企业提供了税务代理业务，与客户建立了良好的合作伙伴关系，我公司的专业技术服务团队，一直致力于向客户提供专业化的纳税解决方案，为各类不同需求的公司、企业、个人提供中高端的税务顾问、涉税鉴证、纳税审核和财税培训等专业服务，协助客户在市场竞争中不断取得成功、为客户赢得更高效益的同时，促进客户与税务机关的有效沟通，得到了税务部门的肯定和企业的认可。</p>
+				</div>
+				<a href="javascript:;" id="intro-more">显示更多</a>
+			</div>
+		</div>
+		<!--擅长领域-->
+		<div class="good-at">
+			<h3>擅长领域</h3>
+			<div class="clearfix">
+				<img src="images/metal.jpg" alt="">
+				<ul>
+					<li>
+						<i class="icon iconfont">&#xe624;</i>
+						<span>涉税签证</span>
+					</li>
+					<li>
+						<i class="icon iconfont">&#xe624;</i>
+						<span>税务代理</span>
+					</li>
+					<li>
+						<i class="icon iconfont">&#xe624;</i>
+						<span>财税咨询</span>
+					</li>
+					<li>
+						<i class="icon iconfont">&#xe624;</i>
+						<span>税收筹划</span>
+					</li>
+					<li>
+						<i class="icon iconfont">&#xe624;</i>
+						<span>税务风险评估</span>
+					</li>
+					<li>
+						<i class="icon iconfont">&#xe624;</i>
+						<span>财税培训</span>
+					</li>
+					<li>
+						<i class="icon iconfont">&#xe624;</i>
+						<span>涉税拓展业务</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--专业服务-->
+		<div class="service-link">
+			<h3>专业服务</h3>
+			<div class="clearfix">
+				<a href="serviceDetails.html">
+					<img src="images/servicepic1.jpg" alt="">
+					<p>上市公司避税策略及技巧</p>
+				</a>
+				<a href="serviceDetails.html">
+					<img src="images/servicepic1.jpg" alt="">
+					<p>上市公司避税策略及技巧</p>
+				</a>
+				<a href="serviceDetails.html">
+					<img src="images/servicepic1.jpg" alt="">
+					<p>上市公司避税策略及技巧</p>
+				</a>
+				<a href="serviceDetails.html">
+					<img src="images/servicepic1.jpg" alt="">
+					<p>上市公司避税策略及技巧</p>
+				</a>
+				<a href="serviceDetails.html">
+					<img src="images/servicepic1.jpg" alt="">
+					<p>上市公司避税策略及技巧</p>
+				</a>
+				<a href="serviceDetails.html">
+					<img src="images/servicepic1.jpg" alt="">
+					<p>上市公司避税策略及技巧</p>
+				</a>
+				<a href="officer.html">
+					<img src="images/servicepic1.jpg" alt="">
+					<p>上市公司避税策略及技巧</p>
+				</a>
+				<a href="officer.html">
+					<img src="images/servicepic1.jpg" alt="">
+					<p>上市公司避税策略及技巧</p>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="maincontent-right">
+		<div class="office-crew">
+			<h3>专业团队</h3>
+			<div class="clearfix">
+				<div class="crew-cell clearfix">
+					<a href="officer.html"><img src="images/crewpic1.jpg" alt=""></a>
+					<div>
+						<h4>张三</h4>
+						<p>特级税务师</p>
+						<span>北京信息科技大学会计学教授、北京会计学会常务理事、中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。</span>
+					</div>
+				</div>
+				<div class="crew-cell clearfix">
+					<a href="officer.html"><img src="images/crewpic1.jpg" alt=""></a>
+					<div>
+						<h4>张三</h4>
+						<p>特级税务师</p>
+						<span>北京信息科技大学会计学教授、北京会计学会常务理事、中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。</span>
+					</div>
+				</div>
+				<div class="crew-cell clearfix">
+					<a href="officer.html"><img src="images/crewpic1.jpg" alt=""></a>
+					<div>
+						<h4>张三</h4>
+						<p>特级税务师</p>
+						<span>北京信息科技大学会计学教授、北京会计学会常务理事、中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。</span>
+					</div>
+				</div>
+				<div class="crew-cell clearfix">
+					<a href="officer.html"><img src="images/crewpic1.jpg" alt=""></a>
+					<div>
+						<h4>张三</h4>
+						<p>特级税务师</p>
+						<span>北京信息科技大学会计学教授、北京会计学会常务理事、中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。</span>
+					</div>
+				</div>
+				<div class="crew-cell clearfix">
+					<a href="officer.html"><img src="images/crewpic1.jpg" alt=""></a>
+					<div>
+						<h4>张三</h4>
+						<p>特级税务师</p>
+						<span>北京信息科技大学会计学教授、北京会计学会常务理事、中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。</span>
+					</div>
+				</div>
+				<div class="crew-cell clearfix">
+					<a href="officer.html"><img src="images/crewpic1.jpg" alt=""></a>
+					<div>
+						<h4>张三</h4>
+						<p>特级税务师</p>
+						<span>北京信息科技大学会计学教授、北京会计学会常务理事、中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。中国会计学会高等工科院校分会常务理事。</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--footer-->
+<div class="footer">
+    <div class="links">
+        <a href="#">关于我们</a>|
+        <a href="#">合作伙伴</a>|
+        <a href="#">技术支持</a>|
+        <a href="#">法律声明</a>|
+        <a href="#">联系我们</a>
+    </div>
+    <div class="text">
+        <p>公司名称:南京弗莱英网络科技有限公司 地址:南京秣陵科技创业中心东门清水亭西路2号中节能产业园A栋8楼 <br> 客服电话:13956911452</p>
+        <p><a href="#">客服邮箱:591471488@qq.com</a></p>
+        <p>Powered by fulaiyin1.0 Copyright  2016 财税圈. All rights reserved  京ICP备14057654号-3<a href="http://icp.valu.cn/" target="_blank" id="footer_copyright_a"></a></p>
+    </div>
+    <div>
+        <a target="_black" href="http://www.itrust.org.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot1.png"/></a>
+        <a target="_black" href="http://www.baic.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot2.png"/></a>
+        <a target="_black" href="http://www.12321.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot3.png"/></a>
+        <a target="_black" href="http://www.bnia.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot4.png"/></a>
+        <a target="_black" href="http://www.bj.cyberpolice.cn/index.jsp"><img src="http://www.miaocaiwang.com/tpl/default/img/bot5.png"/></a>
+        <a target="_black" href="http://www.ctws.com.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot6.png"/></a>
+        <a target="_black" href="http://www.bjwhzf.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot7.png"/></a>
+    </div>
+</div>
+
+</body>
+</html>

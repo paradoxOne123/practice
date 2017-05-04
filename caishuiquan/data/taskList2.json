@@ -1,0 +1,25 @@
+{
+    "taskList": [
+        {
+            "taskId": 123,
+            "taskName": "财税圈任务",
+            "budget": "￥1000 - ￥2000",
+            "date": "2016-07-18 21:44:48",
+            "taskStatus": "抢标中"
+        },
+        {
+            "taskId": 123,
+            "taskName": "财税圈任务",
+            "budget": "￥1000 - ￥2000",
+            "date": "2016-07-18 21:44:48",
+            "taskStatus": "抢标中"
+        },
+        {
+            "taskId": 123,
+            "taskName": "财税圈任务",
+            "budget": "￥1000 - ￥2000",
+            "date": "2016-07-18 21:44:48",
+            "taskStatus": "抢标中"
+        }
+    ]
+}

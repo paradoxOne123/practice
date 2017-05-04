@@ -1,0 +1,1677 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/mypage.css">
+<link rel="stylesheet" type="text/css" href="css/sns-top.css">
+<link rel="stylesheet" type="text/css" href="css/sj_mainbox.css">
+<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css">
+<link rel="stylesheet" type="text/css" href="../css/footer.css">
+<link rel="stylesheet" type="text/css" href="../css/sidebar.css">
+<script type="text/javascript" src="../js/jquery-1.12.3.js"></script>
+<script type="text/javascript" src="../js/sidebar.js"></script>
+<script type="text/javascript" src="js/mypage.js"></script>
+<script type="text/javascript" src="js/sns-top.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+	<title>我的圈子</title>
+	<style type="text/css">
+        .sidebar-link>a>span{
+            height:40px;
+        }
+    </style>
+</head>
+<body>
+<!--top-->
+<div class="sns-top clearfix">
+	<div class="top-content clearfix">
+		<div class="logo">
+			<a href="../index.html"><img src="images/logo.jpg" alt=""></a>
+		</div>
+		<div class="search-bar">
+			<input type="text" placeholder="大家正在搜：房地产企业应对营改增政策">
+			<span class="icon-search"><i class="icon iconfont">&#xe610;</i></span>
+			<ul class="search-hotlist">
+				<li><a href="">查看完整热搜榜&nbsp;></a></li>
+				<li><a href=""><span>1</span>pony</a></li>
+				<li><a href=""><span>2</span>夏河</a></li>
+				<li><a href=""><span>3</span>女孩8岁时下巴停止生长</a></li>
+				<li><a href=""><span>4</span>陈伟霆被亲</a></li>
+				<li><a href=""><span>5</span>隔夜西瓜为啥不能吃</a></li>
+				<li><a href=""><span>6</span>霍建华直播</a></li>
+				<li><a href=""><span>7</span>男子中460万瞒着老婆</a></li>
+				<li><a href=""><span>8</span>cfa</a></li>
+				<li><a href=""><span>9</span>男生私改好友志愿</a></li>
+				<li><a href=""><span>10</span>胡歌酒店看书</a></li>
+			</ul>
+		</div>
+		<div class="top-right">
+			<ul class="top-links clearfix">
+				<li class="icon-home"><a href="index.html"><i class="icon iconfont">&#xe64a;</i>首页</a></li>
+				<li class="icon-info"><a href="../message.html"><i class="icon iconfont">&#xe63f;</i>资讯</a></li>
+				<li class="icon-user"><a href="../userInformation.html"><i class="icon iconfont">&#xe639;</i>财税圈用户</a></li>
+			</ul>
+			<div class="top-personal clearfix">
+				<span href="#" class="icon-msg">
+					<i class="icon iconfont">&#xe62a;</i>
+					<ul class="msg-ul clearfix">
+						<li><a href="#">@我的</a></li>
+						<li><a href="#">评论</a></li>
+						<li><a href="#">赞</a></li>
+						<li><a href="#">私信</a></li>
+						<li><a href="#">消息设置</a></li>
+					</ul>
+				</span>
+				<span href="#" class="icon-setting">
+					<i class="icon iconfont">&#xe697;</i>
+					<ul class="setting-ul clearfix">
+						<li><a href="#">账号设置</a></li>
+						<li><a href="#">会员中心</a></li>
+						<li><a href="#">V认证</a></li>
+						<li><a href="#">账号安全</a></li>
+						<li><a href="#">隐私设置</a></li>
+						<li><a href="#">退出</a></li>
+					</ul>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+<!--userbanner-->
+<div class="sns-userbanner clearfix">
+	<img src="" alt="">
+	<p></p>
+	<span></span>
+	<div class="userbanner-buttons">
+		<span class="sns-focus">关注</span>
+		<span class="sns-message">私信</span>
+		<span class="sns-more">
+			<img src="images/sns-more.png">
+			<ul class="more-operation">
+				<li><a href="#">推荐给朋友</a></li>
+				<li><a href="#">加入黑名单</a></li>
+				<li><a href="#">举报她</a></li>
+			</ul>
+		</span>
+	</div>
+</div>
+<div class="sns-changetab">
+	<a href="#">她的主页</a>
+	<a href="myQuestion.html">她的问答</a>
+</div>
+<div class="sns-maincontent clearfix">
+	<div class="maincontent-left">
+		<div class="sns-followers clearfix">
+			<a href="#">
+				<p>374</p>
+				<span>关注</span>
+			</a>
+			<a href="#">
+				<p>255</p>
+				<span>粉丝</span>
+			</a>
+			<a href="#">
+				<p>925</p>
+				<span>发布消息</span>
+			</a>
+		</div>
+		<div class="sns-thumbnail clearfix">
+			<div>
+				<img src="images/level.png">
+				<span>Lv.<span class="thumbnail-level"></span></span>
+			</div>
+			<div>
+				<img src="images/location.png">
+				<span class="locationP"></span> <span class="locationC"></span>
+			</div>
+			<div>
+				<img src="images/pen.png">
+				<span>简介：<span></span></span>
+			</div>
+			<div>
+				<a href="#">查看更多 ></a>
+			</div>
+		</div>
+		<!--<div class="sns-relation clearfix">
+			<h4>圈子关系</h4>
+			<div>
+				<h5>她的关注（373）</h5>
+				<div class="my-follow clearfix">	
+					<a href="#">
+						<img src="images/follow-profile1.jpg">
+						<span>寻求资源</span>
+					</a>
+					<a href="#">
+						<img src="images/follow-profile2.jpg">
+						<span>寻求资源</span>
+					</a>
+					<a href="#">
+						<img src="images/follow-profile3.jpg">
+						<span>寻求资源</span>
+					</a>
+					<a href="#">
+						<img src="images/follow-profile4.jpg">
+						<span>寻求资源</span>
+					</a>
+				</div>
+				<h5>她的粉丝（273）</h5>
+				<div class="my-follower clearfix">	
+					<a href="#">
+						<img src="images/follower-profile1.jpg">
+						<span>寻求资源</span>
+					</a>
+					<a href="#">
+						<img src="images/follower-profile2.jpg">
+						<span>寻求资源</span>
+					</a>
+					<a href="#">
+						<img src="images/follower-profile3.jpg">
+						<span>寻求资源</span>
+					</a>
+					<a href="#">
+						<img src="images/follower-profile4.jpg">
+						<span>寻求资源</span>
+					</a>
+				</div>
+			</div>
+			<div>
+				<a href="#">查看更多 ></a>
+			</div>
+		</div>-->
+		<!--<div class="sns-article clearfix">
+			<h4>文章 [7]</h4>
+			<div class="my-article">
+				<a href="#">
+					<img src="images/articlepic1.jpg">
+					<p>我家西瓜长这样……</p>
+				</a>
+				<a href="#">
+					<p>【最近饭上了一个天团 他们是中国外交部天团】他要颜值有颜值，要学历有学历。以势不可挡的气势，快速圈粉无数。好不容易躲过了那么多偶像团体，结果却败倒在中国外交部天团的西裤之下！不得不说，外交部长真是帅气，颇有周总理风范，给王外长点赞</p>
+				</a>
+			</div>
+			<div>
+				<a href="#">查看更多 ></a>
+			</div>
+		</div>-->
+		<div class="sns-album clearfix">
+			<h4>相册</h4>
+			<div class="my-album clearfix">
+				<a href="#" class="big_pic">
+					<img src="images/album1.jpg">
+				</a>
+				<a href="#">
+					<img src="images/album2.jpg">
+				</a>
+				<a href="#">
+					<img src="images/album3.jpg">
+				</a>
+				<a href="#">
+					<img src="images/album4.jpg">
+				</a>
+				<a href="#">
+					<img src="images/album5.jpg">
+				</a>
+				<a href="#">
+					<img src="images/album6.jpg">
+				</a>
+			</div>
+			<div>
+				<a href="#">查看更多 ></a>
+			</div>
+		</div>
+		<!--<div class="sns-recommend clearfix">
+			<h4>張曉穎Cherry的粉丝也关注</h4>
+			<div class="my-recommend clearfix">
+				<div class="clearfix">
+					<img src="images/recommend1.jpg" alt="">
+					<div>
+						<p>阿国好青年</p>
+						<span>所谓孤独，就是有的人无话可说，有的话无人可说</span>
+					</div>
+					<a href="javascript:;">关注</a>
+				</div>
+				<div class="clearfix">
+					<img src="images/recommend1.jpg" alt="">
+					<div>
+						<p>阿国好青年</p>
+						<span>所谓孤独，就是有的人无话可说，有的话无人可说</span>
+					</div>
+					<a href="javascript:;">关注</a>
+				</div>
+				<div class="clearfix">
+					<img src="images/recommend1.jpg" alt="">
+					<div>
+						<p>阿国好青年</p>
+						<span>所谓孤独，就是有的人无话可说，有的话无人可说</span>
+					</div>
+					<a href="javascript:;">关注</a>
+				</div>
+			</div>
+			<div>
+				<a href="#">查看更多 ></a>
+			</div>
+		</div>-->
+		<!--<div class="sns-thumbsup clearfix">
+			<h4>赞</h4>
+			<div class="my-thumbsup clearfix">
+				<a href="#" class="clearfix">
+					<img src="images/thumbsup.jpg">
+					<div>
+						<p>上好娃</p>
+						<span>陪你走过青春 走完人生[心]</span>
+					</div>
+				</a>
+			</div>
+			<div>
+				<a href="#">查看更多 ></a>
+			</div>
+		</div>-->
+	</div>
+	<div class="maincontent-right">
+		<!--内容框-->
+    	<div class="sjbox bottom10">
+
+	    	<div class="sjcont">
+	    		<div class="cont">
+	    			
+	    			<div class="touxiang lct">
+	    				<a href="">
+	    					<img src="images/tx1.jpg">
+	    				</a>
+	    			</div>
+
+	    			<div class="rct">
+	    				<div class="u-tit">
+	    					<a class="u-name" href="">财税圈小天才</a>
+	    					<a class="rz" href=""><img src="images/rz.png"></a>
+	    					<a class="hy" href=""><img src="images/hy.png"></a>
+	    				</div>
+
+	    				<div class="u-time">
+	    					<a class="time" href="">今天 12:35</a>
+	    				</div>
+
+	    				<div class="u-word">本周末，二十国集团(G20)财长和央行行长们即将在成都召开第三次会议。 跨国避税眼下有愈演愈烈之势。据不完全统计，税基侵蚀和利润转移(BEPS)导致的全球企业所得税流失每年高达1000亿至2400亿美元。<!-- 。<a href="">全文 <i class="iconfont">&#xe602;</i></a> --></div>
+
+	    				<div class="u-img">
+	    					<img src="images/u-img1.jpg">
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+            
+            <div class="sj-botm-nav">
+
+            	<ul class="clear">
+            		<li><a href="">
+            			<span class="sc">
+            				<i class="iconfont">&#xe60b;</i>
+            				<em>收藏</em>
+            			</span>
+            		</a></li>
+            		<li><a href="">
+            			<span class="zf">
+            				<i class="iconfont">&#xe609;</i>
+            				<em>30</em>
+            			</span>
+            		</a></li>
+            		<li>
+                		<a href="javascript:void(0);">
+                			<span class="hf">
+                				<i class="iconfont">&#xe676;</i>
+                				<em>112</em>
+                			</span>
+                		</a>
+                        <span class="arrow-t"></span>
+            		</li>
+            		<li><a href="">
+            			<span class="like">
+            				<i class="iconfont">&#xe624;</i>
+            				<em>235</em>
+            			</span>
+            		</a></li>
+            	</ul>
+
+            	<div class="comment">
+            		<div class="cont">
+            			
+            			<!--评论区-->
+            			<div class="commentbox">
+            				<div class="tx left">
+            					<img class="img-auto" src="images/tx1.jpg">
+            				</div>
+
+            				<div class="rct">
+
+            					<div class="comt-edit bottom10">
+            						<textarea class="cot-input"></textarea>
+            						<span style="display:none;" class="cot-input-count">1000</span>
+            					</div>
+                                
+                                <!--评论框-->
+            					<div class="comt-subm clear">
+            						<div class="zf left">
+            							<input type="checkbox" name="zf" id="zf1">
+            							<label for="zf1" class="f12">同时转发到我的主页</label>
+            						</div>
+
+            						<div class="submit right">
+            							<a href="">评论</a>
+            						</div>
+            					</div>
+
+            					<!--评论内容-->
+                    			<div class="comtcont">
+                    				
+                    				<div class="comt-tit clear">
+                    					
+                    					<div class="comt-tit-list left">
+                    						<ul class="clear">
+                    							<li style="margin-left:0px;"><a href="">全部</a></li>
+                    							<li><a href="">热门</a></li>
+                    							<li><a href="">关注的人</a></li>
+                    						</ul>
+                    					</div>
+
+                    					<div class="comt-count right">共227条</div>
+                    				</div>
+                                    
+                                    <!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					    <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+                    				<!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					    <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+                    				<!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					     <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+                    				<!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					     <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+                    				<!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					     <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+
+                    			</div>
+
+            				</div>
+            			</div>
+
+            			
+            		</div>
+            	</div>
+            </div>
+
+        </div>
+        <!--内容框-->
+    	<div class="sjbox bottom10">
+
+	    	<div class="sjcont">
+	    		<div class="cont">
+	    			
+	    			<div class="touxiang lct">
+	    				<a href="">
+	    					<img src="images/tx1.jpg">
+	    				</a>
+	    			</div>
+
+	    			<div class="rct">
+	    				<div class="u-tit">
+	    					<a class="u-name" href="">财税圈小天才</a>
+	    					<a class="rz" href=""><img src="images/rz.png"></a>
+	    					<a class="hy" href=""><img src="images/hy.png"></a>
+	    				</div>
+
+	    				<div class="u-time">
+	    					<a class="time" href="">今天 12:35</a>
+	    				</div>
+
+	    				<div class="u-word">本周末，二十国集团(G20)财长和央行行长们即将在成都召开第三次会议。 跨国避税眼下有愈演愈烈之势。据不完全统计，税基侵蚀和利润转移(BEPS)导致的全球企业所得税流失每年高达1000亿至2400亿美元。<!-- 。<a href="">全文 <i class="iconfont">&#xe602;</i></a> --></div>
+
+	    				<div class="u-img">
+	    					<img src="images/u-img1.jpg">
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+            
+            <div class="sj-botm-nav">
+
+            	<ul class="clear">
+            		<li><a href="">
+            			<span class="sc">
+            				<i class="iconfont">&#xe60b;</i>
+            				<em>收藏</em>
+            			</span>
+            		</a></li>
+            		<li><a href="">
+            			<span class="zf">
+            				<i class="iconfont">&#xe609;</i>
+            				<em>30</em>
+            			</span>
+            		</a></li>
+            		<li>
+                		<a href="javascript:void(0);">
+                			<span class="hf">
+                				<i class="iconfont">&#xe676;</i>
+                				<em>112</em>
+                			</span>
+                		</a>
+                        <span class="arrow-t"></span>
+            		</li>
+            		<li><a href="">
+            			<span class="like">
+            				<i class="iconfont">&#xe624;</i>
+            				<em>235</em>
+            			</span>
+            		</a></li>
+            	</ul>
+
+            	<div class="comment">
+            		<div class="cont">
+            			
+            			<!--评论区-->
+            			<div class="commentbox">
+            				<div class="tx left">
+            					<img class="img-auto" src="images/tx1.jpg">
+            				</div>
+
+            				<div class="rct">
+
+            					<div class="comt-edit bottom10">
+            						<textarea class="cot-input"></textarea>
+            						<span style="display:none;" class="cot-input-count">1000</span>
+            					</div>
+                                
+                                <!--评论框-->
+            					<div class="comt-subm clear">
+            						<div class="zf left">
+            							<input type="checkbox" name="zf" id="zf1">
+            							<label for="zf1" class="f12">同时转发到我的主页</label>
+            						</div>
+
+            						<div class="submit right">
+            							<a href="">评论</a>
+            						</div>
+            					</div>
+
+            					<!--评论内容-->
+                    			<div class="comtcont">
+                    				
+                    				<div class="comt-tit clear">
+                    					
+                    					<div class="comt-tit-list left">
+                    						<ul class="clear">
+                    							<li style="margin-left:0px;"><a href="">全部</a></li>
+                    							<li><a href="">热门</a></li>
+                    							<li><a href="">关注的人</a></li>
+                    						</ul>
+                    					</div>
+
+                    					<div class="comt-count right">共227条</div>
+                    				</div>
+                                    
+                                    <!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					    <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+                    				<!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					    <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+                    				<!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					     <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+                    				<!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					     <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+                    				<!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					     <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+
+                    			</div>
+
+            				</div>
+            			</div>
+
+            			
+            		</div>
+            	</div>
+            </div>
+
+        </div>
+        <!--内容框-->
+    	<div class="sjbox bottom10">
+
+	    	<div class="sjcont">
+	    		<div class="cont">
+	    			
+	    			<div class="touxiang lct">
+	    				<a href="">
+	    					<img src="images/tx1.jpg">
+	    				</a>
+	    			</div>
+
+	    			<div class="rct">
+	    				<div class="u-tit">
+	    					<a class="u-name" href="">财税圈小天才</a>
+	    					<a class="rz" href=""><img src="images/rz.png"></a>
+	    					<a class="hy" href=""><img src="images/hy.png"></a>
+	    				</div>
+
+	    				<div class="u-time">
+	    					<a class="time" href="">今天 12:35</a>
+	    				</div>
+
+	    				<div class="u-word">本周末，二十国集团(G20)财长和央行行长们即将在成都召开第三次会议。 跨国避税眼下有愈演愈烈之势。据不完全统计，税基侵蚀和利润转移(BEPS)导致的全球企业所得税流失每年高达1000亿至2400亿美元。<!-- 。<a href="">全文 <i class="iconfont">&#xe602;</i></a> --></div>
+
+	    				<div class="u-img">
+	    					<img src="images/u-img1.jpg">
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+            
+            <div class="sj-botm-nav">
+
+            	<ul class="clear">
+            		<li><a href="">
+            			<span class="sc">
+            				<i class="iconfont">&#xe60b;</i>
+            				<em>收藏</em>
+            			</span>
+            		</a></li>
+            		<li><a href="">
+            			<span class="zf">
+            				<i class="iconfont">&#xe609;</i>
+            				<em>30</em>
+            			</span>
+            		</a></li>
+            		<li>
+                		<a href="javascript:void(0);">
+                			<span class="hf">
+                				<i class="iconfont">&#xe676;</i>
+                				<em>112</em>
+                			</span>
+                		</a>
+                        <span class="arrow-t"></span>
+            		</li>
+            		<li><a href="">
+            			<span class="like">
+            				<i class="iconfont">&#xe624;</i>
+            				<em>235</em>
+            			</span>
+            		</a></li>
+            	</ul>
+
+            	<div class="comment">
+            		<div class="cont">
+            			
+            			<!--评论区-->
+            			<div class="commentbox">
+            				<div class="tx left">
+            					<img class="img-auto" src="images/tx1.jpg">
+            				</div>
+
+            				<div class="rct">
+
+            					<div class="comt-edit bottom10">
+            						<textarea class="cot-input"></textarea>
+            						<span style="display:none;" class="cot-input-count">1000</span>
+            					</div>
+                                
+                                <!--评论框-->
+            					<div class="comt-subm clear">
+            						<div class="zf left">
+            							<input type="checkbox" name="zf" id="zf1">
+            							<label for="zf1" class="f12">同时转发到我的主页</label>
+            						</div>
+
+            						<div class="submit right">
+            							<a href="">评论</a>
+            						</div>
+            					</div>
+
+            					<!--评论内容-->
+                    			<div class="comtcont">
+                    				
+                    				<div class="comt-tit clear">
+                    					
+                    					<div class="comt-tit-list left">
+                    						<ul class="clear">
+                    							<li style="margin-left:0px;"><a href="">全部</a></li>
+                    							<li><a href="">热门</a></li>
+                    							<li><a href="">关注的人</a></li>
+                    						</ul>
+                    					</div>
+
+                    					<div class="comt-count right">共227条</div>
+                    				</div>
+                                    
+                                    <!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					    <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+                    				<!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					    <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+                    				<!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					     <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+                    				<!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					     <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+                    				<!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					     <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+
+                    			</div>
+
+            				</div>
+            			</div>
+
+            			
+            		</div>
+            	</div>
+            </div>
+
+        </div>
+        <!--内容框-->
+    	<div class="sjbox bottom10">
+
+	    	<div class="sjcont">
+	    		<div class="cont">
+	    			
+	    			<div class="touxiang lct">
+	    				<a href="">
+	    					<img src="images/tx1.jpg">
+	    				</a>
+	    			</div>
+
+	    			<div class="rct">
+	    				<div class="u-tit">
+	    					<a class="u-name" href="">财税圈小天才</a>
+	    					<a class="rz" href=""><img src="images/rz.png"></a>
+	    					<a class="hy" href=""><img src="images/hy.png"></a>
+	    				</div>
+
+	    				<div class="u-time">
+	    					<a class="time" href="">今天 12:35</a>
+	    				</div>
+
+	    				<div class="u-word">本周末，二十国集团(G20)财长和央行行长们即将在成都召开第三次会议。 跨国避税眼下有愈演愈烈之势。据不完全统计，税基侵蚀和利润转移(BEPS)导致的全球企业所得税流失每年高达1000亿至2400亿美元。<!-- 。<a href="">全文 <i class="iconfont">&#xe602;</i></a> --></div>
+
+	    				<div class="u-img">
+	    					<img src="images/u-img1.jpg">
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+            
+            <div class="sj-botm-nav">
+
+            	<ul class="clear">
+            		<li><a href="">
+            			<span class="sc">
+            				<i class="iconfont">&#xe60b;</i>
+            				<em>收藏</em>
+            			</span>
+            		</a></li>
+            		<li><a href="">
+            			<span class="zf">
+            				<i class="iconfont">&#xe609;</i>
+            				<em>30</em>
+            			</span>
+            		</a></li>
+            		<li>
+                		<a href="javascript:void(0);">
+                			<span class="hf">
+                				<i class="iconfont">&#xe676;</i>
+                				<em>112</em>
+                			</span>
+                		</a>
+                        <span class="arrow-t"></span>
+            		</li>
+            		<li><a href="">
+            			<span class="like">
+            				<i class="iconfont">&#xe624;</i>
+            				<em>235</em>
+            			</span>
+            		</a></li>
+            	</ul>
+
+            	<div class="comment">
+            		<div class="cont">
+            			
+            			<!--评论区-->
+            			<div class="commentbox">
+            				<div class="tx left">
+            					<img class="img-auto" src="images/tx1.jpg">
+            				</div>
+
+            				<div class="rct">
+
+            					<div class="comt-edit bottom10">
+            						<textarea class="cot-input"></textarea>
+            						<span style="display:none;" class="cot-input-count">1000</span>
+            					</div>
+                                
+                                <!--评论框-->
+            					<div class="comt-subm clear">
+            						<div class="zf left">
+            							<input type="checkbox" name="zf" id="zf1">
+            							<label for="zf1" class="f12">同时转发到我的主页</label>
+            						</div>
+
+            						<div class="submit right">
+            							<a href="">评论</a>
+            						</div>
+            					</div>
+
+            					<!--评论内容-->
+                    			<div class="comtcont">
+                    				
+                    				<div class="comt-tit clear">
+                    					
+                    					<div class="comt-tit-list left">
+                    						<ul class="clear">
+                    							<li style="margin-left:0px;"><a href="">全部</a></li>
+                    							<li><a href="">热门</a></li>
+                    							<li><a href="">关注的人</a></li>
+                    						</ul>
+                    					</div>
+
+                    					<div class="comt-count right">共227条</div>
+                    				</div>
+                                    
+                                    <!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					    <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+                    				<!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					    <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+                    				<!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					     <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+                    				<!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					     <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+                    				<!--评论内容-->
+                    				<div class="comt-art">
+                    					
+                    					<div class="tx left">
+                    						<a href=""><img class="img-auto" src="images/tx1.jpg"></a>
+                    					</div>
+
+                    					<div class="rct">
+
+                    					    <div class="comt-word">
+                    					    	<a href="" class="u-name cslink">源酱yuan</a>难道只有我觉得米国的这个 男生穿上也很有型么？！
+                    					    </div>
+
+                    					    <div class="comt-info clear">
+                    					    	<div class="comt-time left f12">今天 12:04</div>
+                    					    	<div class="comt-act right">
+                    					    		<a href="javascript:void(0);" class="jubao">举报</a>
+                    					    		<a href="javascript:void(0);" class="reply">回复</a>
+                    					    		<a href="javascript:void(0);" class="like"><i class="iconfont">&#xe624;</i>12</a>
+                    					    	</div>
+                    					    </div>
+
+                    					     <!--回复框-->
+                    					    <div class="comt-replay">
+                    					        <span class="arrow-t"></span>
+                    					    	<div class="comt-edit bottom10">
+		                    						<textarea class="cot-input"></textarea>
+		                    						<span style="display:none;" class="cot-input-count">1000</span>
+		                    					</div>
+		                                        
+		                    					<div class="comt-subm clear">
+		                    						<div class="zf left">
+		                    							<input type="checkbox" name="zf" id="zf">
+		                    							<label for="zf" class="f12">同时转发到我的主页</label>
+		                    						</div>
+
+		                    						<div class="replay-submit submit right">
+		                    							<a href="">评论</a>
+		                    						</div>
+		                    					</div>
+                    					    </div>
+                    					    
+                    					</div>
+
+                    				</div>
+
+                    			</div>
+
+            				</div>
+            			</div>
+
+            			
+            		</div>
+            	</div>
+            </div>
+
+        </div>
+	</div>
+</div>
+<!--footer-->
+<div class="footer">
+    <div class="links">
+        <a href="#">关于我们</a>|
+        <a href="#">合作伙伴</a>|
+        <a href="#">技术支持</a>|
+        <a href="#">法律声明</a>|
+        <a href="#">联系我们</a>
+    </div>
+    <div class="text">
+        <p>公司名称:南京弗莱英网络科技有限公司 地址:南京秣陵科技创业中心东门清水亭西路2号中节能产业园A栋8楼 客服电话:13956911452</p>
+        <p><a href="#">客服邮箱:591471488@qq.com</a></p>
+        <p>Powered by fulaiyin1.0 Copyright  2016 财税圈. All rights reserved  京ICP备14057654号-3<a href="http://icp.valu.cn/" target="_blank" id="footer_copyright_a"></a></p>
+    </div>
+    <div>
+        <a target="_black" href="http://www.itrust.org.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot1.png"/></a>
+        <a target="_black" href="http://www.baic.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot2.png"/></a>
+        <a target="_black" href="http://www.12321.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot3.png"/></a>
+        <a target="_black" href="http://www.bnia.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot4.png"/></a>
+        <a target="_black" href="http://www.bj.cyberpolice.cn/index.jsp"><img src="http://www.miaocaiwang.com/tpl/default/img/bot5.png"/></a>
+        <a target="_black" href="http://www.ctws.com.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot6.png"/></a>
+        <a target="_black" href="http://www.bjwhzf.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot7.png"/></a>
+    </div>
+</div>
+</body>
+</html>

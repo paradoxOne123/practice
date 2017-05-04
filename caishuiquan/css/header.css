@@ -1,0 +1,90 @@
+body{font-size: 14px;color: #5a5a5a;font-family: "Microsoft YaHei";padding: 0;margin: 0;background-color: #fff;}
+*{padding: 0;margin: 0;}
+ul,li,div{list-style: none;text-decoration: none;padding: 0px;margin: 0px;box-sizing: border-box;}
+a{color: #000;cursor: pointer;text-decoration: none;}
+a:hover{text-decoration: none;}
+
+.w_fluid{width: 100%;}
+.w_1000{width: 1000px;margin: 0 auto;}
+
+.bluelink{color: #2f7bcf!important;}
+.box{width: 1000px;margin: 0 auto;}
+.center{margin: 0 auto;display: block;}
+.text-center{text-align: center;}
+.img-auto{width: 100%;height: auto;}
+.left{float: left;}
+.right{float: right;}
+.clear:after{clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}
+
+.top10{margin-top: 10px!important;}
+.top20{margin-top: 20px!important;}
+.top30{margin-top: 30px;}
+.top40{margin-top: 40px;}
+.top50{margin-top: 50px;}
+.bottom10{margin-bottom: 10px!important;}
+
+/**top**/
+.top{background-color: #f7f7f6;height: 35px;line-height: 35px;}
+.top .toplist{height: 35px;line-height: 35px;min-width: 450px;}
+.top .toplist ul{}
+.top .toplist ul li{float: left;padding: 0px 10px;}
+.top .toplist ul li a{font-size: 12px;color: #777;}
+.top .toplist ul li a span{display: inline-block;padding: 0px 5px;}
+
+/**header**/
+.header{padding: 15px 0px;overflow: visible;height: 110px;
+}
+.header .logobox{width: 195px;height: 80px;}
+.header .logobox img{width: 100%;height: auto;}
+.header .searchbox{width: ;height: 80px;margin-left: 50px;}
+.header .searchbox .form{border: 2px solid #2f7bcf;margin-top: 10px;height: 43px;overflow: visible;}
+.header .searchbox .form select{width: 95px;height: 39px;border: none;color: #5a5a5a;box-sizing: border-box;border-right: 1px solid #ddd;}
+.header .searchbox .form input.sehcont{color: #666; vertical-align: middle\9;vertical-align: middle\9\0; margin-top: -16px\9;margin-top: 0px\9\0; box-sizing: border-box;border-radius: 0px;height: 37px;width: 320px;border: 0px;line-height: 100%;border-left: 0px;}
+.header .searchbox .form input.sehcont:focus{border:0px;outline:none;}
+.header .searchbox .form button{vertical-align: middle\9;vertical-align: middle\9\0;margin-top: -16px\9;margin-top: 0px\9\0; padding: 0px 15px;color: #fff;border:0px;border-radius: 0px;font-weight: 100;background: #2f7bcf;font-size: 16px;height: 39px;}
+.header .tags{padding-top: 10px;padding-left: 100px;}
+.header .tags ul li{float: left;font-size: 12px;}
+.header .tags ul li span{color: #9da0a4;}
+.header .tags ul li a{color: #9da0a4;margin: 0 10px;}
+.header .fbrw{line-height: 43px;height: 43px;padding: 0px 15px;background-color: #f90;color: #fff;margin-top: 10px;margin-left: 15px;}  
+.header .fbrw a{color: #fff;}
+.header .wlsws{background-color: #ddd;}
+
+.navbar{background-color: #2f7bcf;height: 45px;line-height: 45px;}
+.navbar ul li{float: left;line-height: 45px;font-size: 14px;}
+.navbar ul li a{color: #fff;display: inline-block;padding: 0px 20px;}
+.navbar ul li a:hover{text-decoration: none;background-color: #F90;}
+
+
+/**下拉框美化**/
+.nice-select {width: 95px;float: left;padding: 0 10px;height: 38px;border-right: 1px solid #ededed;position: relative;background: #fff url(../images/a2.jpg) no-repeat right center;cursor:pointer;}
+.nice-select input {color: #333; display: block;width: 100%;height: 38px;line-height: 38px \9;border: 0;outline: 0;background: none;cursor:pointer;}
+.nice-select ul {width: 97px;display: none;position: absolute;left: -2px;top: 38px;overflow: hidden;background-color: #fff;max-height: 224px;overflow-y: auto;border: 1px solid #ededed;border-top: 0;z-index:9999;}
+.nice-select ul li {height: 30px;line-height: 30px;overflow: hidden;padding: 0 10px;cursor: pointer;}
+.nice-select ul li.on {background-color: #f90;color: #fff;}
+
+.nav-active{background-color: #f90!important;}
+
+/**office header**/
+.office-header{
+	padding: 5px 0px;
+    height: 80px;
+}
+.header h2{
+	font-size: 18px;
+	color: #777;
+	line-height: 30px;
+    margin-top: 5px;
+}
+/*.header h2 a.office-name{
+    font-size: 18px;
+    color: #5a5a5a;
+}*/
+.header .office-rq span{
+	display: inline-block;
+	margin-right: 10px;
+	color: #999999;
+}
+.header .office-rq span i{
+	color: #f90;
+}

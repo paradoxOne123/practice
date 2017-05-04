@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="iconfont/iconfont.css">
+<link rel="stylesheet" type="text/css" href="css/questionBox.css">
+<link rel="stylesheet" type="text/css" href="../css/sidebar.css">
+<script type="text/javascript" src="../js/jquery-1.12.3.js"></script>
+<script type="text/javascript" src="../js/sidebar.js"></script>
+	<title>财税圈-代账无忧</title>
+    <style type="text/css">
+        .sidebar-link>a>span{
+            height:40px;
+        }
+    </style>
+</head>
+<body>
+<!--问答部分-->
+<div class="my-questions">
+    <div class="question-container">
+        <div class="question-box clearfix">
+            <a href="#" class="profile-pic">
+                <img src="images/tx1.jpg" alt="">
+            </a>
+            <div>
+                <p>老师你好，我们公司1年前开始筹划上市，但是现在出现了XXX问题，XXX机构对我们公司的上市计划全盘否决，我们是否还有机会上市，怎么样的上市计划会更合适呢，感谢老师的回答！</p>
+            </div>
+        </div>
+        <div class="answer-box clearfix">
+            <p>王思聪 | 国际CFO认证一级财务XXX，曾被京东、苏宁等企业聘请作为上市顾问，具有15年以上的上市公司财务总监岗位经验和3年的上市顾问经验</p>
+            <a href="#" class="profile-pic">
+                <img src="images/expert-img1.jpg" alt="">
+            </a>
+            <div class="clearfix">
+                <div class="arrow"></div>
+                <div class="answer-audio">
+                    <img src="images/wave.png" alt="" class="wave">
+                    <span class="charge-type">免费试听</span>
+                    <audio src="" autoplay="autoplay" class="answer-wave"></audio>
+                </div>
+                <div class="listen-num">
+                    <span class="cost-time"><i>3</i>"</span>
+                    <span class="paid-num">29人偷听</span>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="expert-infos clearfix">
+            <div class="clearfix">
+                <img src="images/expert-img1.jpg" alt="">
+                <div>
+                    <p>我是王思聪</p>
+                    <span>已帮助321人，总收入4210元</span>
+                    <i class="icon iconfont">&#xe600;</i>
+                </div>
+            </div>
+            <p class="expert-intro">国际CFO组织认证一级财务XXX，曾被京东、苏宁等企业聘请作为上市顾问，具有15年以上的上市公司财务总监岗位经验和3年的上市顾问经验</p>
+        </a>
+    </div>
+    <div class="question-container">
+        <div class="question-box clearfix">
+            <a href="#" class="profile-pic">
+                <img src="images/tx1.jpg" alt="">
+            </a>
+            <div>
+                <p>老师你好，我们公司1年前开始筹划上市，但是现在出现了XXX问题，XXX机构对我们公司的上市计划全盘否决，我们是否还有机会上市，怎么样的上市计划会更合适呢，感谢老师的回答！</p>
+            </div>
+        </div>
+        <div class="answer-box clearfix">
+            <p>王思聪 | 国际CFO认证一级财务XXX，曾被京东、苏宁等企业聘请作为上市顾问，具有15年以上的上市公司财务总监岗位经验和3年的上市顾问经验</p>
+            <a href="#" class="profile-pic">
+                <img src="images/expert-img1.jpg" alt="">
+            </a>
+            <div class="clearfix">
+                <div class="arrow"></div>
+                <div class="answer-audio">
+                    <img src="images/wave.png" alt="" class="wave">
+                    <span class="charge-type">免费试听</span>
+                    <audio src="" autoplay="autoplay" class="answer-wave"></audio>
+                </div>
+                <div class="listen-num">
+                    <span class="cost-time"><i>3</i>"</span>
+                    <span class="paid-num">29人偷听</span>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="expert-infos clearfix">
+            <div class="clearfix">
+                <img src="images/expert-img1.jpg" alt="">
+                <div>
+                    <p>我是王思聪</p>
+                    <span>已帮助321人，总收入4210元</span>
+                    <i class="icon iconfont">&#xe600;</i>
+                </div>
+            </div>
+            <p class="expert-intro">国际CFO组织认证一级财务XXX，曾被京东、苏宁等企业聘请作为上市顾问，具有15年以上的上市公司财务总监岗位经验和3年的上市顾问经验</p>
+        </a>
+    </div>
+    <div class="question-container">
+        <div class="question-box clearfix">
+            <a href="#" class="profile-pic">
+                <img src="images/tx1.jpg" alt="">
+            </a>
+            <div>
+                <p>老师你好，我们公司1年前开始筹划上市，但是现在出现了XXX问题，XXX机构对我们公司的上市计划全盘否决，我们是否还有机会上市，怎么样的上市计划会更合适呢，感谢老师的回答！</p>
+            </div>
+        </div>
+        <div class="answer-box clearfix">
+            <p>王思聪 | 国际CFO认证一级财务XXX，曾被京东、苏宁等企业聘请作为上市顾问，具有15年以上的上市公司财务总监岗位经验和3年的上市顾问经验</p>
+            <a href="#" class="profile-pic">
+                <img src="images/expert-img1.jpg" alt="">
+            </a>
+            <div class="clearfix">
+                <div class="arrow"></div>
+                <div class="answer-audio">
+                    <img src="images/wave.png" alt="" class="wave">
+                    <span class="charge-type">免费试听</span>
+                    <audio src="" autoplay="autoplay" class="answer-wave"></audio>
+                </div>
+                <div class="listen-num">
+                    <span class="cost-time"><i>3</i>"</span>
+                    <span class="paid-num">29人偷听</span>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="expert-infos clearfix">
+            <div class="clearfix">
+                <img src="images/expert-img1.jpg" alt="">
+                <div>
+                    <p>我是王思聪</p>
+                    <span>已帮助321人，总收入4210元</span>
+                    <i class="icon iconfont">&#xe600;</i>
+                </div>
+            </div>
+            <p class="expert-intro">国际CFO组织认证一级财务XXX，曾被京东、苏宁等企业聘请作为上市顾问，具有15年以上的上市公司财务总监岗位经验和3年的上市顾问经验</p>
+        </a>
+    </div>
+    <div class="question-container">
+        <div class="question-box clearfix">
+            <a href="#" class="profile-pic">
+                <img src="images/tx1.jpg" alt="">
+            </a>
+            <div>
+                <p>老师你好，我们公司1年前开始筹划上市，但是现在出现了XXX问题，XXX机构对我们公司的上市计划全盘否决，我们是否还有机会上市，怎么样的上市计划会更合适呢，感谢老师的回答！</p>
+            </div>
+        </div>
+        <div class="answer-box clearfix">
+            <p>王思聪 | 国际CFO认证一级财务XXX，曾被京东、苏宁等企业聘请作为上市顾问，具有15年以上的上市公司财务总监岗位经验和3年的上市顾问经验</p>
+            <a href="#" class="profile-pic">
+                <img src="images/expert-img1.jpg" alt="">
+            </a>
+            <div class="clearfix">
+                <div class="arrow"></div>
+                <div class="answer-audio">
+                    <img src="images/wave.png" alt="" class="wave">
+                    <span class="charge-type">免费试听</span>
+                    <audio src="" autoplay="autoplay" class="answer-wave"></audio>
+                </div>
+                <div class="listen-num">
+                    <span class="cost-time"><i>3</i>"</span>
+                    <span class="paid-num">29人偷听</span>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="expert-infos clearfix">
+            <div class="clearfix">
+                <img src="images/expert-img1.jpg" alt="">
+                <div>
+                    <p>我是王思聪</p>
+                    <span>已帮助321人，总收入4210元</span>
+                    <i class="icon iconfont">&#xe600;</i>
+                </div>
+            </div>
+            <p class="expert-intro">国际CFO组织认证一级财务XXX，曾被京东、苏宁等企业聘请作为上市顾问，具有15年以上的上市公司财务总监岗位经验和3年的上市顾问经验</p>
+        </a>
+    </div>
+</div>
+<script>
+$(function(){
+    $(".answer-audio").click(function() {
+        var sec = parseInt($(".cost-time>i").html())*1000;
+
+        $(this).parent().parent().siblings(".expert-infos").css("display","block");
+        $(this).find("img").attr("src","images/wavegif.gif");
+        $(this).find("audio").attr("src","audio/double_ring.mp3");
+        setTimeout(function(){
+            $(".answer-audio>img[src='images/wavegif.gif']").attr("src", "images/wave.png");
+        },sec)
+    })
+})
+</script>
+</body>
+</html>

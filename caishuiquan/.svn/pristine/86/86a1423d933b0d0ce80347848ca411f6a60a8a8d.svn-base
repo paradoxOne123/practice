@@ -1,0 +1,238 @@
+{
+	"dtlist": [
+		{
+			"user": { 
+				"userName": "Bill" ,
+				"userId": "001",
+				"ifRz": "yes",
+				"ifNumber": "yes",
+				"ifTx": "yes",
+				"txUrl": "images/tx1.jpg",
+				"gz": "10",
+				"fans": "3",
+				"dtCount": "15",
+				"level": "Lv.0"
+			},
+
+            "data": "今天",
+			"time": "12.35",
+            
+			"dttext": "本周末，二十国集团(G20)财长和央行行长们即将在成都召开第三次会议。 跨国避税眼下有愈演愈烈之势。据不完全统计，税基侵蚀和利润转移(BEPS)导致的全球企业所得税流失每年高达1000亿至2400亿美元。",
+            "ifTextimg": "yes",
+			"textimgUrl": "images/u-img1.jpg",
+
+			"zf": "30",
+
+			"dz": "40",
+            
+			"comments": [
+                {
+                    "userName": "财税天才1",
+                    "userId": "001",
+                    "ifTx": "yes",
+				    "txUrl": "images/tx1.jpg",
+                    "data": "2016年09月14日",
+                    "time": "14:25",
+                    "dz": "12",
+                    "comtxt": "啦啦啦~~"
+                },
+                {
+                    "userName": "财税天才1",
+                    "userId": "001",
+                    "ifTx": "yes",
+				    "txUrl": "images/tx1.jpg",
+                    "data": "2016年09月14日",
+                    "time": "14:25",
+                    "dz": "6",
+                    "comtxt": "嘿嘿嘿~~"
+                },
+                {
+                    "userName": "财税天才1",
+                    "userId": "001",
+                    "ifTx": "yes",
+				    "txUrl": "images/tx1.jpg",
+                    "data": "2016年09月14日",
+                    "time": "14:25",
+                    "dz": "1",
+                    "comtxt": "啦啦啦~~"
+                }
+            ]
+
+		},
+
+		{
+			"user": { 
+				"userName": "财税圈小天才" ,
+				"userId": "001",
+				"ifRz": "yes",
+				"ifNumber": "yes",
+				"ifTx": "yes",
+				"txUrl": "images/tx1.jpg",
+				"gz": "10",
+				"fans": "3",
+				"dtCount": "15",
+				"level": "Lv.0"
+			},
+
+            "data": "2016年7月20号",
+			"time": "10.20",
+            
+			"dttext": "动画电影《爱宠大机密》将于2016年8月2日全国上映！",
+			"ifTextimg": "yes",
+			"textimgUrl": " ",
+
+			"zf": "30",
+
+			"dz": "40",
+            
+			"comments": [
+                {
+                    "userName": "财税天才1",
+                    "userId": "001",
+                    "ifTx": "yes",
+				    "txUrl": "images/tx1.jpg",
+                    "data": "2016年09月14日",
+                    "time": "14:25",
+                    "comtxt": "啦啦啦~~"
+                },
+                {
+                    "userName": "财税天才1",
+                    "userId": "001",
+                    "ifTx": "yes",
+				    "txUrl": "images/tx1.jpg",
+                    "data": "2016年09月14日",
+                    "time": "14:25",
+                    "comtxt": "啦啦啦~~"
+                },
+                {
+                    "userName": "财税天才1",
+                    "userId": "001",
+                    "ifTx": "yes",
+				    "txUrl": "images/tx1.jpg",
+                    "data": "2016年09月14日",
+                    "time": "14:25",
+                    "comtxt": "啦啦啦~~"
+                }
+            ]
+
+		},
+		{
+			"user": { 
+				"userName": "Bill" ,
+				"userId": "001",
+				"ifRz": "yes",
+				"ifNumber": "yes",
+				"ifTx": "yes",
+				"txUrl": "images/tx1.jpg",
+				"gz": "10",
+				"fans": "3",
+				"dtCount": "15",
+				"level": "Lv.0"
+			},
+
+            "data": "今天",
+			"time": "12.35",
+            
+			"dttext": "本周末，二十国集团(G20)财长和央行行长们即将在成都召开第三次会议。 跨国避税眼下有愈演愈烈之势。据不完全统计，税基侵蚀和利润转移(BEPS)导致的全球企业所得税流失每年高达1000亿至2400亿美元。",
+            "ifTextimg": "yes",
+			"textimgUrl": " ",
+
+			"zf": "30",
+
+			"dz": "40",
+            
+			"comments": [
+                {
+                    "userName": "财税天才1",
+                    "userId": "001",
+                    "ifTx": "yes",
+				    "txUrl": "images/tx1.jpg",
+                    "data": "2016年09月14日",
+                    "time": "14:25",
+                    "dz": "12",
+                    "comtxt": "啦啦啦~~"
+                },
+                {
+                    "userName": "财税天才1",
+                    "userId": "001",
+                    "ifTx": "yes",
+				    "txUrl": "images/tx1.jpg",
+                    "data": "2016年09月14日",
+                    "time": "14:25",
+                    "dz": "6",
+                    "comtxt": "嘿嘿嘿~~"
+                },
+                {
+                    "userName": "财税天才1",
+                    "userId": "001",
+                    "ifTx": "yes",
+				    "txUrl": "images/tx1.jpg",
+                    "data": "2016年09月14日",
+                    "time": "14:25",
+                    "dz": "1",
+                    "comtxt": "啦啦啦~~"
+                }
+            ]
+
+		},
+
+		{
+			"user": { 
+				"userName": "财税圈小天才" ,
+				"userId": "001",
+				"ifRz": "yes",
+				"ifNumber": "yes",
+				"ifTx": "yes",
+				"txUrl": "images/tx1.jpg",
+				"gz": "10",
+				"fans": "3",
+				"dtCount": "15",
+				"level": "Lv.0"
+			},
+
+            "data": "2016年7月20号",
+			"time": "10.20",
+            
+			"dttext": "动画电影《爱宠大机密》将于2016年8月2日全国上映！",
+			"ifTextimg": "yes",
+			"textimgUrl": "images/u-img1.jpg",
+
+			"zf": "30",
+
+			"dz": "40",
+            
+			"comments": [
+                {
+                    "userName": "财税天才1",
+                    "userId": "001",
+                    "ifTx": "yes",
+				    "txUrl": "images/tx1.jpg",
+                    "data": "2016年09月14日",
+                    "time": "14:25",
+                    "comtxt": "啦啦啦~~"
+                },
+                {
+                    "userName": "财税天才1",
+                    "userId": "001",
+                    "ifTx": "yes",
+				    "txUrl": "images/tx1.jpg",
+                    "data": "2016年09月14日",
+                    "time": "14:25",
+                    "comtxt": "啦啦啦~~"
+                },
+                {
+                    "userName": "财税天才1",
+                    "userId": "001",
+                    "ifTx": "yes",
+				    "txUrl": "images/tx1.jpg",
+                    "data": "2016年09月14日",
+                    "time": "14:25",
+                    "comtxt": "啦啦啦~~"
+                }
+            ]
+
+		}
+
+		
+	]
+}	

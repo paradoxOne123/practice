@@ -1,0 +1,32 @@
+{
+	"zoneList": [
+		{
+			"zoneName":"玄武区",
+			"zoneValue":"1"
+		},
+		{
+			"zoneName":"鼓楼区",
+			"zoneValue":"2"
+		},
+		{
+			"zoneName":"江宁区",
+			"zoneValue":"3"
+		},
+		{
+			"zoneName":"浦口区",
+			"zoneValue":"4"
+		},     
+		{
+			"zoneName":"白下区",
+			"zoneValue":"5"
+		},
+		{
+			"zoneName":"建邺区",
+			"zoneValue":"6"
+		},
+		{
+			"zoneName":"栖霞区",
+			"zoneValue":"7"
+		}
+    ]
+}

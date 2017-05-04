@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/caisui.css"/>
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <title>欢迎来到财税圈，登录页面！</title>
+</head>
+<body>
+
+<div class="top w_fluid clear">
+    <div class="toplist right">
+        <ul class="clear">
+            <li><a href="index.html">首页</a></li>
+            <li><a class="bluelink" href="login.html">您好，请登录</a></li>
+            <li><a href="submit.html">免费注册</a></li>
+            <li><a href="userInformation.html">个人中心</a></li>
+            <li><a href="">购物车<span class="bluelink">0</span></a></li>
+            <li><a href="#">收藏网站</a></li>
+            <li><a href="#">关注我们</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a class="bluelink" href="#">服务热线：400-010-2233</a></li>
+        </ul>
+    </div>
+</div>
+
+    <header>
+        <div class="login_sub">
+            <a href="#"><img src="images/logo.png"></a>
+        </div>
+        <div class="login_char"><span>欢迎登录</span></div>
+    </header>
+    <section class="login_1 section">
+        <div class="login_main log1">
+            <p>
+                <span>登录</span> <b>赚钱之路从这里开始！</b>
+                 <a class="click" href="#"> 注册账户></a><a>或 </a>
+            </p>
+            <p>
+                <b>手机号 ：</b>&nbsp;&nbsp;<input class="my_phone" type="text" name="username" placeholder="请输入有效手机号码"/>
+            </p>
+            <div class="phone_num" style="display:none;">*请输入有效的11位手机号码</div>
+            <p>
+                <b>输入密码：</b><input class="pwd" name="pwd" type="password" placeholder="请输入6位数服务密码"/>
+            </p>
+            <div class="user_pwd" style="display:none;">*请输入6位服务密码</div>
+            <div>
+                <p>
+                    <input class="rememberme" type="checkbox"/>记住我 <a class="login_2" href="#">忘记密码？</a>
+                </p>
+                <button class="submit1">登 录</button>
+            </div>
+        </div>
+    </section>
+
+
+<div class="footer">
+    <div class="links">
+        <a href="#">关于我们</a>|
+        <a href="#">合作伙伴</a>|
+        <a href="#">技术支持</a>|
+        <a href="#">法律声明</a>|
+        <a href="#">联系我们</a>
+    </div>
+    <div class="text">
+        <p>公司名称:南京弗莱英网络科技有限公司 地址:南京秣陵科技创业中心东门清水亭西路2号中节能产业园A栋8楼 <br> 客服电话:13956911452</p>
+        <p><a href="#">客服邮箱:591471488@qq.com</a></p>
+        <p>Powered by fulaiyin1.0 Copyright  2016 财税圈. All rights reserved  京ICP备14057654号-3<a href="http://icp.valu.cn/" target="_blank" id="footer_copyright_a"></a></p>
+    </div>
+    <div>
+        <a target="_black" href="http://www.itrust.org.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot1.png"/></a>
+        <a target="_black" href="http://www.baic.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot2.png"/></a>
+        <a target="_black" href="http://www.12321.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot3.png"/></a>
+        <a target="_black" href="http://www.bnia.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot4.png"/></a>
+        <a target="_black" href="http://www.bj.cyberpolice.cn/index.jsp"><img src="http://www.miaocaiwang.com/tpl/default/img/bot5.png"/></a>
+        <a target="_black" href="http://www.ctws.com.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot6.png"/></a>
+        <a target="_black" href="http://www.bjwhzf.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot7.png"/></a>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/caisui.js"></script>
+<script type="text/javascript" src="js/sidebar.js"></script>
+<script>
+    $('.click').click(function(){
+        location.href="submit.html";
+    })
+</script>
+
+<script type="text/javascript">
+    
+    $(function(){
+        if(window.localStorage){
+           // alert("support!");
+        }else{
+            alert("本浏览器不支持部分功能,建议使用其他浏览器：");
+        }
+
+        $(".submit1").click(function(){
+
+            var phone = $(".my_phone").val();
+            var pwd = $(".pwd").val();
+            alert(JSON.stringify(phone));
+
+            // $.ajax({
+            //     timeout:30000,
+            //     url:'login.php',
+            //     data:{
+            //         phone:phone,
+            //         pwd:pwd,
+            //         rmd:Math.random()
+            //     },
+            //     tyoe:'post',
+            //     dataType:'json',
+            //     success:function(data){
+
+            //         if (data.msg == "") {
+            //             alert("用户名或密码错误");
+            //         } else{
+
+                        //将登录信息存入缓存
+                        var rem = $(".rememberme");
+                        if(rem.checked){
+                            saveUserPhone(phone);
+                        }else{
+                            saveUserPhone(phone);
+                            saveUserPwd(pwd);
+                        }
+                       // alert(window.localStorage.getItem("userinfo"));
+                        window.location.href = document.referrer;
+            //         }
+            //     },
+            //     error:function(){
+            //         alert("系统繁忙，请稍后")；
+            //     }
+
+            // })
+
+        })
+        
+        //保存用户登录信息
+        function saveUserPhone(pho){
+            if(window.localStorage){
+                var value = JSON.stringify(pho);//srtingify:把对象解析为字符串；parse:反过来
+                try {
+                    window.localStorage.setItem('phone', value);
+                } catch(e) {
+                    alert("本地储存写入错误，若为safari浏览器请关闭隐身模式（无痕浏览）。");
+                }
+            }
+        }
+        function saveUserPwd(pwd){
+            if(window.localStorage){
+                var value = JSON.stringify(pwd);
+                try {
+                    window.localStorage.setItem('password', value);
+                } catch(e) {
+                    alert("本地储存写入错误，若为safari浏览器请关闭隐身模式（无痕浏览）。");
+                }
+            }
+        }
+
+    })
+
+</script>
+
+</body>
+</html>

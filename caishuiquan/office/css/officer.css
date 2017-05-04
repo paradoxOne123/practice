@@ -1,0 +1,80 @@
+a{
+    color:#666;
+}
+section,nav{
+    margin:20px 174.5px;
+}
+.officer{
+    width:660px;
+    height:190px;
+    border:1px solid #ededed;
+    border-radius:5px;
+    margin-top:10px;
+    float:left;
+}
+.officer>div{
+    float:left;
+    margin:10px 0 0 20px;
+}
+.officer>div>img{
+    width:80px;
+    height:104px;
+}
+
+.officer>.pro>p{
+    margin-bottom: 10px;
+}
+.officer>.pro>p>.expert_name{
+    font-size: 22px;
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.officer>.pro>p>a>.icon{
+    color:#FF7E00;
+}
+.officer>.pro>p>.company{
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.officer>.pro>p>span{
+    font-size: 14px;
+    color:#333;
+}
+.officer>.follow{
+    float:right;
+}
+.officer>.follow>a{
+    margin-right:5px;
+    padding:5px;
+    border:1px solid #333;
+    border-radius: 5px;
+}
+.officer>.follow>a:hover{
+    background: #ededed;
+}
+.officer>.follow>a>i{
+    color:#ff7e00;
+}
+div>.href{
+    width:660px;
+    margin-top:10px;
+    text-align: center;
+    float:left;
+}
+div>.href>a{
+    display: inline-block;
+    margin-left:20px;
+}
+div>.href>a:hover{
+    color:#e4393c;
+}
+
+div>.banner{
+    position: absolute;
+        top: 11px;
+    right: 0px;}
+div>.banner>img{
+     width: 300px;
+}

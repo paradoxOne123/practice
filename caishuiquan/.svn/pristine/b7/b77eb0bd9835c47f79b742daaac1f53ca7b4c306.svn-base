@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.sidebar-link {
+	position: fixed;
+	right: 40px;
+	top: 50%;
+}
+.sidebar-link>a {
+	height: 40px;
+	display: block;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background: #999;
+}
+.sidebar-link>a:first-child {
+	position: absolute;
+	top: 0;
+}
+.sidebar-link>a:nth-child(2) {
+	position: absolute;
+	top: 45px;
+}
+.sidebar-link>a:nth-child(3) {
+	position: absolute;
+	top: 90px;
+}
+.sidebar-link>a:nth-child(4) {
+	position: absolute;
+	top: 135px;
+}
+.sidebar-link>a:nth-child(5) {
+	position: absolute;
+	top: 180px;
+}
+.sidebar-link>a:nth-child(6) {
+	position: absolute;
+	top: 225px;
+}
+.sidebar-link>a>img {
+	width: 30px;
+	padding: 5px;
+	position: relative;
+	left: 1px;
+}
+.sidebar-link>a>span {
+	padding-left: 5px;
+	position: absolute;
+	top: 0;
+	left: 0px;
+	display: block;
+	width: 60px;
+	font-size: 14px;
+	line-height: 40px;
+	z-index: -1;
+}
+.sidebar-link>a:hover {
+	background: #2399f4;
+	border-radius: 0;
+}
+.sidebar-link>a:hover>span {
+	animation: showtext 0.3s;
+	animation-fill-mode: forwards;
+	color: #fff;
+	font-weight: 700;
+	background: #2399f4;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+@keyframes showtext {
+	0% {left: 0px;}
+	100% {left: -62px;}
+}
+.sidebar-link>a:last-child:hover {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.sidebar-link>a:last-child:hover .qrcode {
+	display: block;
+}
+.sidebar-link>a:last-child .qrcode {
+	position: absolute;
+	left: -125px;
+	bottom: 0px;
+	display: none;
+	background: #fff;
+	border-radius: 10px;
+	border-bottom-right-radius: 0;
+	padding: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .2)
+}
+.sidebar-link>a:last-child .qrcode span {
+	display: block;
+	font-size: 12px;
+	line-height: 12px;
+	color: #555;
+	text-align: center;
+}
+.sidebar-link>a:last-child .qrcode img {
+	width: 100px;
+}
+.sidebar-link .qrcode:after {
+	display: block;
+	content: '';
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	overflow: hidden;
+	position: absolute;
+	right: -5px;
+	bottom: 2.5px;
+	transform: rotate(45deg);
+	box-shadow: 2px -2px 2px rgba(0, 0, 0, .2)
+}
+.sidebar-link>a:last-child:hover img {
+	display: block;
+}

@@ -1,0 +1,24 @@
+{
+	"glList":[
+        {   
+        	"userId": "001",
+        	"userName": "财税圈小天才",
+        	"userPic": "images/tx1.jpg"
+        },
+        {   
+        	"userId": "002",
+        	"userName": "Alison",
+        	"userPic": "images/tx1.jpg"
+        },
+        {   
+        	"userId": "003",
+        	"userName": "spencer",
+        	"userPic": "images/tx1.jpg"
+        },
+        {   
+        	"userId": "004",
+        	"userName": "toby",
+        	"userPic": "images/tx1.jpg"
+        }
+	]
+}

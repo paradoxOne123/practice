@@ -1,0 +1,74 @@
+{
+    "audioblog": [
+        {
+            "quserId": 123,
+            "quserImg": "images/tx1.jpg",
+            "quserTxt": "老师你好，我们公司1年前开始筹划上市，但是现在出现了XXX问题，XXX机构对我们公司的上市计划全盘否决，我们是否还有机会上市，怎么样的上市计划会更合适呢，感谢老师的回答！",
+            "anserId": 321,
+            "anserName": "王思聪",
+            "anserDes": "国际CFO认证一级财务XXX，曾被京东、苏宁等企业聘请作为上市顾问，具有15年以上的上市公司财务总监岗位经验和3年的上市顾问经验",
+            "anserImg": "images/expert-img1.jpg",
+            "anserAudio": "audio/test.wav",
+            "audioSec": 10,
+            "listenNum": 22,
+            "helpNum": 233,
+            "income": 4310
+        },
+        {
+            "quserId": 123,
+            "quserImg": "images/tx1.jpg",
+            "quserTxt": "老师你好，我们公司1年前开始筹划上市，但是现在出现了XXX问题，XXX机构对我们公司的上市计划全盘否决，我们是否还有机会上市，怎么样的上市计划会更合适呢，感谢老师的回答！",
+            "anserId": 321,
+            "anserName": "王思聪",
+            "anserDes": "国际CFO认证一级财务XXX，曾被京东、苏宁等企业聘请作为上市顾问，具有15年以上的上市公司财务总监岗位经验和3年的上市顾问经验",
+            "anserImg": "images/expert-img1.jpg",
+            "anserAudio": "audio/test.wav",
+            "audioSec": 10,
+            "listenNum": 22,
+            "helpNum": 233,
+            "income": 4310
+        },
+        {
+            "quserId": 123,
+            "quserImg": "images/tx1.jpg",
+            "quserTxt": "老师你好，我们公司1年前开始筹划上市，但是现在出现了XXX问题，XXX机构对我们公司的上市计划全盘否决，我们是否还有机会上市，怎么样的上市计划会更合适呢，感谢老师的回答！",
+            "anserId": 321,
+            "anserName": "王思聪",
+            "anserDes": "国际CFO认证一级财务XXX，曾被京东、苏宁等企业聘请作为上市顾问，具有15年以上的上市公司财务总监岗位经验和3年的上市顾问经验",
+            "anserImg": "images/expert-img1.jpg",
+            "anserAudio": "audio/test.wav",
+            "audioSec": 10,
+            "listenNum": 22,
+            "helpNum": 233,
+            "income": 4310
+        },
+        {
+            "quserId": 123,
+            "quserImg": "images/tx1.jpg",
+            "quserTxt": "老师你好，我们公司1年前开始筹划上市，但是现在出现了XXX问题，XXX机构对我们公司的上市计划全盘否决，我们是否还有机会上市，怎么样的上市计划会更合适呢，感谢老师的回答！",
+            "anserId": 321,
+            "anserName": "王思聪",
+            "anserDes": "国际CFO认证一级财务XXX，曾被京东、苏宁等企业聘请作为上市顾问，具有15年以上的上市公司财务总监岗位经验和3年的上市顾问经验",
+            "anserImg": "images/expert-img1.jpg",
+            "anserAudio": "audio/test.wav",
+            "audioSec": 10,
+            "listenNum": 22,
+            "helpNum": 233,
+            "income": 4310
+        },
+        {
+            "quserId": 123,
+            "quserImg": "images/tx1.jpg",
+            "quserTxt": "老师你好，我们公司1年前开始筹划上市，但是现在出现了XXX问题，XXX机构对我们公司的上市计划全盘否决，我们是否还有机会上市，怎么样的上市计划会更合适呢，感谢老师的回答！",
+            "anserId": 321,
+            "anserName": "王思聪",
+            "anserDes": "国际CFO认证一级财务XXX，曾被京东、苏宁等企业聘请作为上市顾问，具有15年以上的上市公司财务总监岗位经验和3年的上市顾问经验",
+            "anserImg": "images/expert-img1.jpg",
+            "anserAudio": "",
+            "audioSec": 0,
+            "listenNum": 22,
+            "helpNum": 233,
+            "income": 4310
+        }
+    ]
+}

@@ -1,0 +1,144 @@
+.w_1000{width: 1000px;margin: 0 auto;}
+a:hover{text-decoration: none;color: #f90;}
+p{margin: 0 0 10px;}
+.artical{
+    padding: 10px;
+    background: white;
+    margin-bottom: 15px;
+    border: solid 1px #ededed;
+    margin-top: 20px;
+}
+.artical .head{
+    padding: 25px 0px 5px 0px;
+    border-bottom: 1px solid #ededed;
+}
+.artical .head h3{
+    color: #24313c;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 10px;
+    font-weight: 100;
+}
+.artical .head .art-info{
+
+}
+.artical .head .art-info .liulan{
+    line-height: 32px;
+    height: 32px;
+    color: #bcbfc1;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.artical .head .art-info .liulan b{
+    float: left;
+    width: 26px;
+    height: 32px;
+    background: url(../images/mcld-timea.png) center no-repeat;
+}
+.artical .head .art-info .liulan span{
+    margin-right: 10px;
+}
+.artical .head .art-info a{
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	border:1px solid #ddd;
+	line-height: 22px;
+	font-size: 16px;
+	text-align: center;
+	margin-left: 5px;
+}
+
+.artical .tags{
+	padding: 15px 0px 0px 0px;
+	border-bottom: 1px solid #ededed;
+}
+.artical .tags p{
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.artical .artical-cont{
+	padding: 15px 0px;
+	border-bottom: 2px solid #ededed;
+}
+.artical .artical-cont p{
+    line-height: 26px;
+    color: #24313c;
+    margin: 0 10px;
+    margin-bottom: 8px;
+    text-indent: 20px;
+}
+.artical .artical-foot{
+	padding: 15px 0px;
+}
+.artical .artical-foot .artlist{
+	line-height: 
+}
+.artical .artical-foot .artlist div{
+	width: 340px;
+    line-height: 32px;
+    height: 32px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 24px;
+}
+.artical .artical-foot .artlist span{
+    color: #e04646;
+}
+.artical .artical-foot .artlist a{
+    color: #24313c;
+}
+
+.guanlian{
+	margin-top: 10px;
+}
+.guanlian .glfg{
+    width: 493px;
+    height: 236px;
+    border: 1px solid #ededed;
+}
+.guanlian .glfg .glfgcont{
+    border: 2px solid transparent;
+    height: 232px;
+    background: #ffffff;
+}
+.guanlian .glfg .glfgcont ul{
+    padding: 0px 15px;
+}
+.guanlian .glfg .glfgcont ul li{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    clear: both;
+}
+.guanlian .glfg .glfgcont ul li a{
+    color: #24313c;
+    float: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    width: 85%;
+    overflow: hidden;
+}
+.guanlian .glfg .glfgcont ul li a:hover{
+	text-decoration: none;
+	color: #f90;
+}
+.guanlian .glfg .glfgcont ul li a span{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    line-height: 32px;
+    border-radius: 50%;
+    background-color: #c5c5c5;
+    margin-right: 8px;
+}
+.guanlian .glfg .glfgcont ul li b{
+    float: right;
+    font-weight: 100;
+    font-size: 12px;
+    color: #caccce;
+}

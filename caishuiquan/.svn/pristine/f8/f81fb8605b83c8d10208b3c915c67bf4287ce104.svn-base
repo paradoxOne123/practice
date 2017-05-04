@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="../css/caisui.css"/>
+<link rel="stylesheet" type="text/css" href="css/shejiao.css">
+<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css">
+<link rel="stylesheet" type="text/css" href="css/blacklist.css">
+<link rel="stylesheet" type="text/css" href="../css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/sns-top.css">
+<link rel="stylesheet" type="text/css" href="../css/sidebar.css">
+<script type="text/javascript" src="../js/jquery-1.12.3.js"></script>
+<script type="text/javascript" src="../js/sidebar.js"></script>
+<script type="text/javascript" src="js/sns-top.js"></script>
+<script type="text/javascript" src="js/shejiao.js"></script>
+<script type="text/javascript" src="js/blacklist.js"></script>
+
+	<title>我的圈子</title>
+</head>
+<body>
+<!--top-->
+<div class="sns-top clearfix">
+    <div class="top-content clearfix">
+        <div class="logo">
+            <a href="../index.html"><img src="images/logo.jpg" alt=""></a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="大家正在搜：房地产企业应对营改增政策">
+            <span class="icon-search"><i class="icon iconfont">&#xe610;</i></span>
+            <ul class="search-hotlist">
+                <li><a href="">查看完整热搜榜&nbsp;></a></li>
+                <li><a href=""><span>1</span>pony</a></li>
+                <li><a href=""><span>2</span>夏河</a></li>
+                <li><a href=""><span>3</span>女孩8岁时下巴停止生长</a></li>
+                <li><a href=""><span>4</span>陈伟霆被亲</a></li>
+                <li><a href=""><span>5</span>隔夜西瓜为啥不能吃</a></li>
+                <li><a href=""><span>6</span>霍建华直播</a></li>
+                <li><a href=""><span>7</span>男子中460万瞒着老婆</a></li>
+                <li><a href=""><span>8</span>cfa</a></li>
+                <li><a href=""><span>9</span>男生私改好友志愿</a></li>
+                <li><a href=""><span>10</span>胡歌酒店看书</a></li>
+            </ul>
+        </div>
+        <div class="top-right">
+            <ul class="top-links clearfix">
+                <li class="icon-home"><a href="index.html"><i class="icon iconfont">&#xe64a;</i>首页</a></li>
+                <li class="icon-info"><a href="../message.html"><i class="icon iconfont">&#xe63f;</i>资讯</a></li>
+                <li class="icon-user"><a href="../userInformation.html"><i class="icon iconfont">&#xe639;</i>财税圈用户</a></li>
+            </ul>
+            <div class="top-personal clearfix">
+                <span href="#" class="icon-msg">
+                    <i class="icon iconfont">&#xe62a;</i>
+                    <ul class="msg-ul clearfix">
+                        <li><a href="#">@我的</a></li>
+                        <li><a href="#">评论</a></li>
+                        <li><a href="#">赞</a></li>
+                        <li><a href="#">私信</a></li>
+                        <li><a href="#">消息设置</a></li>
+                    </ul>
+                </span>
+                <span href="#" class="icon-setting">
+                    <i class="icon iconfont">&#xe697;</i>
+                    <ul class="setting-ul clearfix">
+                        <li><a href="#">账号设置</a></li>
+                        <li><a href="#">会员中心</a></li>
+                        <li><a href="#">V认证</a></li>
+                        <li><a href="#">账号安全</a></li>
+                        <li><a href="#">隐私设置</a></li>
+                        <li><a href="#">退出</a></li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section>
+  <div class="father">
+		<div class="user_pic">
+		</div>
+	  	<nav>
+			<div>
+				<a href="">我的主页</a>
+				<a href="">我的相册</a>
+			</div>
+		</nav>
+	    <div class="contents">
+			<div class="list">
+				<ul>
+					<li class="bg flw"><a href="follow.html"><img  src="images/follow 1.png" alt=""/>关注 </a></li>
+					<li class="bg grp"><a href=""><img  src="images/group1.png" />讨论组 </a></li>
+					<li class="bg fans"><a href="fans.html"><img  src="images/user.png" />粉丝 </a></li>
+					<li class="bg bl"><a href="blacklist.html"><img src="images/blacklist1.png" />黑名单 </a></li>
+				</ul>
+			</div>
+			<div class="menu">
+                <div class="title_nav blacktips">
+                    <a href="#">
+                        <span>黑名单</span>
+                         
+                    </a>
+                     被加入黑名单的用户将无法关注、评论你，如果你已经关注他也会自动解除关系。
+                </div>
+                <div class="blacklist">
+                    
+                </div>
+                <div class="href">
+                    <a href=""> 上一页 |</a>
+                    <span class="active"> 1 </span>
+                    <span> 2 </span>
+                    <span> 3 </span>
+                    <span> 4 </span>
+                    <span> 5 </span>
+                    <span> 6 </span>
+                    <a href="">  | 下一页</a>
+                </div>
+                <div class="modal modal_tips" style="display:none;">
+                    <div class="modal-dialog">
+                        <div class="modal-content tips">
+                            <h3>温馨提示</h3><span class="close">X</span>
+                            <p><span>是否真的移除此人出黑名单？</span></p>
+                            <button class="btn1 go_now">确 定</button>
+                            <button class="btn2 go_after">取 消</button>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</div>
+  </div>
+</section>
+
+<div class="footer">
+    <div class="links">
+        <a href="#">关于我们</a>|
+        <a href="#">合作伙伴</a>|
+        <a href="#">技术支持</a>|
+        <a href="#">法律声明</a>|
+        <a href="#">联系我们</a>
+    </div>
+    <div class="text">
+        <p>公司名称:南京弗莱英网络科技有限公司 地址:南京秣陵科技创业中心东门清水亭西路2号中节能产业园A栋8楼 客服电话:13956911452</p>
+        <p><a href="#">客服邮箱:591471488@qq.com</a></p>
+        <p>Powered by fulaiyin1.0 Copyright  2016 财税圈. All rights reserved  京ICP备14057654号-3<a href="http://icp.valu.cn/" target="_blank" id="footer_copyright_a"></a></p>
+    </div>
+    <div>
+        <a target="_black" href="http://www.itrust.org.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot1.png"/></a>
+        <a target="_black" href="http://www.baic.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot2.png"/></a>
+        <a target="_black" href="http://www.12321.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot3.png"/></a>
+        <a target="_black" href="http://www.bnia.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot4.png"/></a>
+        <a target="_black" href="http://www.bj.cyberpolice.cn/index.jsp"><img src="http://www.miaocaiwang.com/tpl/default/img/bot5.png"/></a>
+        <a target="_black" href="http://www.ctws.com.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot6.png"/></a>
+        <a target="_black" href="http://www.bjwhzf.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot7.png"/></a>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/addcrew.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/header.css">
+<link rel="stylesheet" type="text/css" href="diyUpload/css/diyUpload.css">
+<script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+<script type="text/javascript" src="diyUpload/js/webuploader.html5only.min.js"></script>
+<script type="text/javascript" src="diyUpload/js/diyUpload.js"></script>
+<script type="text/javascript" src="js/addcrew.js"></script>
+<script type="text/javascript" src="js/count-word.js"></script>
+	<title>用户中心</title>
+</head>
+<body>
+<!--top-->
+<div class="top w_fluid clear">
+	<div class="toplist right">
+		<ul class="clear">
+		    <li><a href="index.html">首页</a></li>
+			<li><a class="bluelink" href="login.html">您好，请登录</a></li>
+			<li><a href="submit.html">免费注册</a></li>
+			<li><a href="userInformation.html">个人中心</a></li>
+			<li><a href="">购物车<span class="bluelink">0</span></a></li>
+			<li><a href="#">收藏网站</a></li>
+			<li><a href="#">关注我们</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a class="bluelink" href="#">服务热线：400-010-2233</a></li>
+		</ul>
+	</div>
+</div>
+
+
+
+
+<div class="personal-settings">
+	<ul>
+		<li>用户中心</li>
+		<li><a href="#"><img src="images/setting.png" alt="">账号设置</a></li>
+		<li class="active"><a href="#"><img src="images/message.png" alt="">我的发布</a></li>
+		<li><a href="#"><img src="images/sheild.png" alt="">我的安全</a></li>
+		<li><a href="#"><img src="images/privacy.png" alt="">我的隐私</a></li>
+		<li><a href="#">更多</a></li>
+	</ul>
+</div>
+<div class="main-content">
+	<div class="side-nav">
+		<div class="side-nav-klass">
+			<p>交易管理</p>
+			<ul class="hidden-content">
+				<li><a href="caishui.html">快速发布任务</a></li>
+				<li><a href="postedTask.html">我发布的任务</a></li>
+				<li><a href="boughtitem.html">我买入的服务</a></li>
+				<li><a href="mytask.html">我抢单的任务</a></li>
+			</ul>
+		</div>
+		<div class="side-nav-klass active">
+			<p>店铺服务管理</p>
+			<ul class="hidden-content">
+				<li><a href="fbfw-step1.html">添加店铺服务</a></li>
+				<li><a href="mycrew.html">我的团队</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="content-right clearfix">
+		<h3>添加新成员</h3>
+		<div class="table-left">
+			<span>姓名：</span>
+			<span>性别：</span>
+			<span>身份证号：</span>
+			<span>职称：</span>
+			<span>职称注册号：</span>
+			<span>部门：</span>
+			<span>岗位：</span>
+			<span>简介：</span>
+			<span>上传扫描件：</span>
+		</div>
+		<div class="table-right">
+			<form action="">
+				<div>
+					<input type="text" name="name" placeholder="请输入姓名" >					
+				</div>
+				<select name="gender" id="">
+					<option value="0">男</option>
+					<option value="1">女</option>
+				</select>
+				<div>
+					<input type="text" id="idNum" name="idNum" placeholder="请输入18位身份证号" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')">
+				</div>
+				<select name="licence" id="">
+					<option value="0">特级税务师</option>
+					<option value="1">一级税务师</option>
+					<option value="2">二级税务师</option>
+					<option value="3">三级税务师</option>
+				</select>
+				<div>
+					<input type="text" id="licenceNum" name="licenceNum" placeholder="请输入注册号" >				
+				</div>
+				<div>
+					<input type="text" name="department" placeholder="请输入所在部门" >
+				</div>
+				<div>
+					<input type="text" name="station" placeholder="请输入主要岗位" >
+				</div>
+				<div class="crew-describe" id="wordCount">
+					<textarea name="describe" id="" cols="30" rows="10" maxlength="300" placeholder="请输入简单介绍（不超过300个汉字）" ></textarea>
+					<span>还可以输入 <span class="word">300</span> 个字数</span>					
+				</div>
+				<div id="scans">
+					<p>请上传证件照一张、身份证扫描件一张和职称扫描件一张</p>
+					<div id="as" >
+						<input type="file" name="file" class="webuploader-element-invisible" multiple="multiple" accept="image/*">
+					</div>
+				</div>
+			</form>
+		</div>
+		<input type="button" id="submit" value="提交">
+	</div>
+</div>
+
+<div class="footer">
+    <div class="links">
+        <a href="#">关于我们</a>|
+        <a href="#">合作伙伴</a>|
+        <a href="#">技术支持</a>|
+        <a href="#">法律声明</a>|
+        <a href="#">联系我们</a>
+    </div>
+    <div class="text">
+        <p>公司名称:南京弗莱英网络科技有限公司 地址:南京秣陵科技创业中心东门清水亭西路2号中节能产业园A栋8楼 <br> 客服电话:13956911452</p>
+        <p><a href="#">客服邮箱:591471488@qq.com</a></p>
+        <p>Powered by fulaiyin1.0 Copyright  2016 财税圈. All rights reserved  京ICP备14057654号-3<a href="http://icp.valu.cn/" target="_blank" id="footer_copyright_a"></a></p>
+    </div>
+    <div>
+        <a target="_black" href="http://www.itrust.org.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot1.png"/></a>
+        <a target="_black" href="http://www.baic.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot2.png"/></a>
+        <a target="_black" href="http://www.12321.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot3.png"/></a>
+        <a target="_black" href="http://www.bnia.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot4.png"/></a>
+        <a target="_black" href="http://www.bj.cyberpolice.cn/index.jsp"><img src="http://www.miaocaiwang.com/tpl/default/img/bot5.png"/></a>
+        <a target="_black" href="http://www.ctws.com.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot6.png"/></a>
+        <a target="_black" href="http://www.bjwhzf.gov.cn/"><img src="http://www.miaocaiwang.com/tpl/default/img/bot7.png"/></a>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/sidebar.js"></script>
+</body>
+</html>
